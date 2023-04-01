@@ -6,7 +6,7 @@ public class C01_PlayAnimals {
         Cat jiang = new Cat();
         fred.hop(4);
         jiang.jump(5, fred);
-        String greet = That is all";
+        String greet = "That is all";
         fred.say(greet,3);
     }
 }
