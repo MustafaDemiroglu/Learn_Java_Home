@@ -1,6 +1,6 @@
 package D01_Modul_1;
 
-import java.awt.*;
+import edu.duke.*;
 
 public class C01_ClassTypes {
     private int x;

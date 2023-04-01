@@ -1,5 +1,5 @@
-package D02_Modul_1;
 import edu.duke.*;
+
 public class fordergroundImage {
     public static void main(String[] args) {
         var fgImage = new SimpleImage("drewRobert.png");

@@ -1,5 +1,6 @@
+import edu.duke.*;
+import edu.duke.*;
 package D01_Modul_1_Quiz;
-
 public class C01_PlayAnimals {
     public void play(){
         Frog fred = new Frog();

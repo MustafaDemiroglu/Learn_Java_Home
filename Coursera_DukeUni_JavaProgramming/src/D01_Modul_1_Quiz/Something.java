@@ -1,6 +1,5 @@
 package D01_Modul_1_Quiz;
-
-public class Something {
+import edu.duke.*;
 public class Something {
 
     public void run() {
@@ -9,5 +8,8 @@ public class Something {
             System.out.println(g);
             System.out.println(g);
         }
+    }
+    public static void main (String[] args) {
+        run();
     }
 }
