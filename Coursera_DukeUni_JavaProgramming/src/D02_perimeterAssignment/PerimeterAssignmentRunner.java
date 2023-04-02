@@ -2,6 +2,7 @@ import edu.duke.*;
 import java.io.File;
 
 public class PerimeterAssignmentRunner {
+}
     public double getPerimeter (Shape s) {
         // Start with totalPerim = 0
         double totalPerim = 0.0;
@@ -157,4 +158,31 @@ public class PerimeterAssignmentRunner {
         pr.testPerimeter();
         pr.triangle();
     }
-    
+
+
+    // This method creates a triangle that you can use to test your other methods
+    public void triangle(){
+        Shape triangle = new Shape();
+        triangle.addPoint(new Point(0,0));
+        triangle.addPoint(new Point(6,0));
+        triangle.addPoint(new Point(3,6));
+        for (Point p : triangle.getPoints()){
+            System.out.println(p);
+        }
+        double peri = getPerimeter(triangle);
+        System.out.println("perimeter = "+peri);
+    }
+
+    // This method prints names of all files in a chosen folder that you can use to test your other methods
+    public void printFileNames() {
+        DirectoryResource dr = new DirectoryResource();
+        for (File f : dr.selectedFiles()) {
+            System.out.println(f);
+        }
+    }
+
+    public static void main (String[] args) {
+        PerimeterAssignmentRunner pr = new PerimeterAssignmentRunner();
+        pr.testPerimeter();
+
+    }
