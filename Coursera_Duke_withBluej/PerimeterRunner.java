@@ -25,6 +25,6 @@ return totalPerim;
     }
     public static void main (String[] args) {
         PerimeterRunner pr = new PerimeterRunner();
-        pr.testPerimeter();
+
     }
 }
