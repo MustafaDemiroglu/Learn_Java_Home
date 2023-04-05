@@ -54,6 +54,11 @@ public class findGeneSimpleAndTest {
         gene = findGeneSimple(dna);
         System.out.println("Gene is: " + gene);
         
+        dna = "AAATGCCCTAACTAGATTAAGAAACC";
+        System.out.println(" Quiz 1. DNA strand is: " + dna);
+        gene = findGeneSimple(dna);
+        System.out.println("Quiz 1 Gene is: " + gene);
+        
     } 
 }
 
