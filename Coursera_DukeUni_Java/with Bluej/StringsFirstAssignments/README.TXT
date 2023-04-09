@@ -6,9 +6,9 @@ alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar
 zumindest die folgenden Angaben umfassen:
 ------------------------------------------------------------------------
 
-PROJEKTBEZEICHNUNG:
-PROJEKTZWECK:
-VERSION oder DATUM:
-WIE IST DAS PROJEKT ZU STARTEN:
-AUTOR(EN):
-BENUTZERHINWEISE:
+PROJEKTBEZEICHNUNG: Coursera Program with Duke Uni. Java 
+PROJEKTZWECK: Learning Java
+VERSION oder DATUM:09.04.2023
+WIE IST DAS PROJEKT ZU STARTEN: 
+AUTOR(EN): Mustafa Demiroglu
+BENUTZERHINWEISE: for Beginner
