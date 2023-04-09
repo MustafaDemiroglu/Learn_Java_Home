@@ -2,8 +2,8 @@ import edu.duke.*;
 /**
  * Beschreiben Sie hier die Klasse findGeneWhile.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author (Mustafa Demiroglu) 
+ * @version (09.04.2023)
  */
 public class findGeneWhile {
     public String findGene(String dna){
