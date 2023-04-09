@@ -30,14 +30,27 @@ public class AllCodons {
     
     public String findGene(String dna){
         //find first occurance of "ATG", startindex
+        int startIndex = dna.indexOf("ATG");
         //if startIndex is -1, return""
-        //use taaIndex to store findStopCodon(dna,startIndex,"TAA"
-        //use tagIndex to store findStopCodon(dna,startIndex,"TAA"
-        //use tgaIndex to store findStopCodon(dna,startIndex,"TAA"
+        if (startIndex == -1) {
+            return"";
+        }
+        //use taaIndex to store findStopCodon(dna,startIndex,"TAA")
+        int taaIndex = findStopCodon (dna, startIndex, "TAA");
+        //use tagIndex to store findStopCodon(dna,startIndex,"TAG")
+        int tagIndex = findStopCodon (dna, startIndex, "TAG");
+        //use tgaIndex to store findStopCodon(dna,startIndex,"TGA")
+        int tgaIndex = findStopCodon (dna, startIndex, "TGA");
         //store in minIndex the smallest of these three values
+        int temp = Math.min (taaIndex, tagIndex);
+        int minIndex = Math.min (tgaIndex, temp);
+        // int minIndex = Math.min (tgaIndex, Math.min (taaIndex, tagIndex));
         //if minIndex is dna.length()? nothing found, return""
+        if (minIndex == dna.lenth()){
+            return"";
+        }
         //otherwise answer is text from startIndex to minIndex
-        return"";
+        return dna.substring (startIndex, minIndex +3);
     }
     
     public void testFindStop () {
