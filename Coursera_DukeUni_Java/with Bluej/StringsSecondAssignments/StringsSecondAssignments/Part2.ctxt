@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Part2
+comment0.text=\r\n\ \r\n\ \r\n\ @author\ Mustafa\ Demiroglu\r\n\ @version\ 11.04.2023\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Part2.\r\n\ Part\ 2\:\ HowMany\ -\ Finding\ Multiple\ Occurrences\r\n\ This\ assignment\ will\ write\ a\ method\ to\ determine\ how\ many\ occurrences\ of\ a\ string\ appear\ in\ another\ string.\r\n\ Specifically,\ you\ should\ do\ the\ following\:\r\n\ 1.\ Create\ a\ new\ Java\ Class\ named\ Part2in\ the\ StringsSecondAssignments\ project.\r\n\ 2.\ Write\ the\ method\ named\ howMany\ that\ has\ two\ String\ parameters\ named\ stringa\ and\ stringb.\ This\ method\ returns\ an\ integer\ \r\n\ indicating\ how\ many\ times\ stringa\ appears\ in\ stringb,\ where\ each\ occurrence\ of\ stringa\ must\ not\ overlap\ with\ another\ \r\n\ occurrence\ of\ it.\ For\ example,\ the\ call\ howMany(\u201CGAA\u201D,\ \u201CATGAACGAATTGAATC\u201D)\ returns\ 3\ as\ GAA\ occurs\ 3\ times.\ \r\n\ The\ call\ howMany(\u201CAA\u201D,\ \u201CATAAAA\u201D)\ returns\ 2.\ Note\ that\ the\ AA\u2019s\ found\ cannot\ overlap.\r\n\ 3.Write\ the\ void\ method\ testHowMany\ has\ no\ parameters.\ Add\ code\ in\ here\ to\ call\ howMany\ with\ several\ examples\ and\ print\ the\ \r\n\ results.\ Think\ carefully\ about\ what\ types\ of\ examples\ would\ be\ good\ to\ test\ to\ make\ sure\ your\ method\ works\ correctly.\ \r\n
+comment1.params=stringa\ stringb
+comment1.target=int\ howMany(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ testHowMany()
+numComments=3

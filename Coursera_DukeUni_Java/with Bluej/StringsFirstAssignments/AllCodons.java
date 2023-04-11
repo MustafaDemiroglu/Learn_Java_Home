@@ -46,7 +46,7 @@ public class AllCodons {
         int minIndex = Math.min (tgaIndex, temp);
         // int minIndex = Math.min (tgaIndex, Math.min (taaIndex, tagIndex));
         //if minIndex is dna.length()? nothing found, return""
-        if (minIndex == dna.lenth()){
+        if (minIndex == dna.length()){
             return"";
         }
         //otherwise answer is text from startIndex to minIndex
@@ -59,7 +59,7 @@ public class AllCodons {
         int dex = findStopCodon (dna, 0, "TAA");
         if (dex != 9) System.out.println ("error on 9");
         dex = findStopCodon (dna, 9, "TAA");
-        if (dex != 21) System.out.pritln ("error on 21");
+        if (dex != 21) System.out.println ("error on 21");
         dex = findStopCodon (dna,1,"TAA");
         if (dex != 26) System.out.println ("error on 26");
         dex = findStopCodon (dna, 0, "TAG");
