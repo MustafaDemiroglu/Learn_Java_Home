@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=DNAAnalyzer3
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=url
+comment2.target=java.lang.String\ readDnaFile(java.lang.String)
+comment3.params=dnaSequence
+comment3.target=java.util.ArrayList\ extractGenes(java.lang.String)
+comment4.params=dnaSequence\ startIndex
+comment4.target=int\ findEndCodonIndex(java.lang.String,\ int)
+comment5.params=dnaSequence
+comment5.target=double\ calculateCGRatio(java.lang.String)
+comment6.params=dnaSequence\ codon
+comment6.target=int\ countCodon(java.lang.String,\ java.lang.String)
+numComments=7
