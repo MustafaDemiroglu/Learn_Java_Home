@@ -70,7 +70,7 @@ public class WhichCountriesExport {
     public void whoExportsCoffe(){
         FileResource fr = new FileResource ();
         CSVParser parser = fr.getCSVParser();
-        listExporters(parser, "coffee");
+        listExporters(parser, "cocoa");
     }
     
     public void testCountryInfo2(){
@@ -84,19 +84,19 @@ public class WhichCountriesExport {
     public void testTwoProductExporters (){
         FileResource fr = new FileResource();
         CSVParser parser = fr.getCSVParser();
-        listExportersTwoProducts(parser, "gold", "diamonds");
+        listExportersTwoProducts(parser, "cotton", "flowers");
     }
     
     public void testTwoProductExporters2 (){
         FileResource fr = new FileResource("exportdata.csv");
         CSVParser parser = fr.getCSVParser();
-        listExportersTwoProducts(parser, "fish", "nuts");
+        listExportersTwoProducts(parser, "cotton", "flowers");
     }
     
     public void testNumberOfExporters (){
         FileResource fr = new FileResource("exportdata.csv");
         CSVParser parser = fr.getCSVParser();
-        int count = numberOfExporters(parser, "gold");
+        int count = numberOfExporters(parser, "cocoa");
         System.out.println(count);
     }
     

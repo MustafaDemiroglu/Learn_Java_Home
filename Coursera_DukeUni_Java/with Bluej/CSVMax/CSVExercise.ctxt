@@ -1,0 +1,43 @@
+#BlueJ class context
+comment0.target=CSVExercise
+comment1.params=parser
+comment1.target=org.apache.commons.csv.CSVRecord\ hottestHourInFile(org.apache.commons.csv.CSVParser)
+comment10.params=
+comment10.target=void\ testColdestInManyDay()
+comment11.params=currentRow\ smallestSoFar
+comment11.target=org.apache.commons.csv.CSVRecord\ getSmallestHumidityOfTwo(org.apache.commons.csv.CSVRecord,\ org.apache.commons.csv.CSVRecord)
+comment12.params=parser
+comment12.target=org.apache.commons.csv.CSVRecord\ lowestHumidityInFile(org.apache.commons.csv.CSVParser)
+comment12.text=\r\n\ i\ had\ error.\ i\ coudn't\ solve\ it\r\n\ \ \ \ public\ CSVRecord\ getSmallestHumidityOfTwo\ (CSVRecord\ currentRow,\ CSVRecord\ smallestSoFar){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (smallestSoFar\ \=\=\ null)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ smallestSoFar\ \=\ currentRow\ ;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ currentHumidity\ \=\ Double.parseDouble(currentRow.get("Humidity"));\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ smallestHumidity\ \=\ Double.parseDouble(smallestSoFar.get("Humidity"));\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (currentHumidity\ <\ smallestHumidity)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ smallestSoFar\ \=\ currentRow;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ smallestSoFar;\r\n\ \ \ \ }\r\n
+comment13.params=
+comment13.target=void\ testLowestHumidityInFile()
+comment14.params=
+comment14.target=org.apache.commons.csv.CSVRecord\ lowestHumidityInManyDays()
+comment15.params=
+comment15.target=void\ testLowestHumidityInManyDays()
+comment16.params=parser
+comment16.target=double\ averageTemperatureInFile(org.apache.commons.csv.CSVParser)
+comment17.params=
+comment17.target=void\ testAverageTemperatureInFile()
+comment18.params=parser\ value
+comment18.target=double\ averageTemperatureWithHighHumidityInFile(org.apache.commons.csv.CSVParser,\ int)
+comment19.params=
+comment19.target=void\ testAverageTemperatureWithHighHumidityInFile()
+comment2.params=
+comment2.target=void\ testHottestInDay()
+comment3.params=
+comment3.target=org.apache.commons.csv.CSVRecord\ hottestInManyDays()
+comment4.params=
+comment4.target=void\ testHottestInManyDay()
+comment5.params=currentRow\ largestSoFar
+comment5.target=org.apache.commons.csv.CSVRecord\ getLargestOfTwo(org.apache.commons.csv.CSVRecord,\ org.apache.commons.csv.CSVRecord)
+comment6.params=currentRow\ smallestSoFar
+comment6.target=org.apache.commons.csv.CSVRecord\ getSmallestOfTwo(org.apache.commons.csv.CSVRecord,\ org.apache.commons.csv.CSVRecord)
+comment6.text=\r\n\ it\ mkes\ an\ error.\ -9999\ value\ schould\ be\ ignored\r\n\ \ \ \ public\ CSVRecord\ getSmallestOfTwo\ (CSVRecord\ currentRow,\ CSVRecord\ smallestSoFar){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (smallestSoFar\ \=\=\ null)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ smallestSoFar\ \=\ currentRow\ ;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ currentTemp\ \=\ Double.parseDouble(currentRow.get("TemperatureF"));\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ double\ smallestTemp\ \=\ Double.parseDouble(smallestSoFar.get("TemperatureF"));\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ (currentTemp\ <\ smallestTemp)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ smallestSoFar\ \=\ currentRow;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ smallestSoFar;\r\n\ \ \ \ }\r\n
+comment7.params=parser
+comment7.target=org.apache.commons.csv.CSVRecord\ coldestHourInFile(org.apache.commons.csv.CSVParser)
+comment8.params=
+comment8.target=void\ testColdestHourInFile()
+comment9.params=
+comment9.target=org.apache.commons.csv.CSVRecord\ coldestInManyDays()
+numComments=20
