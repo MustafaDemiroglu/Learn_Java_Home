@@ -60,7 +60,7 @@ public class HelloAdana extends PApplet{
 		
 		
 		map2 = new UnfoldingMap(this, 450, 50, 350, 500, provider);
-	    map2.zoomAndPanTo(zoomLevel, new Location(36.79f, 34.62f));
+	    map2.zoomAndPanTo(zoomLevel, new Location(37.2f, 35.3f));
 		MapUtils.createDefaultEventDispatcher(this, map2);
 
 	}
