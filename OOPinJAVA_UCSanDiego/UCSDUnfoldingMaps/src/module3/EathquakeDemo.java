@@ -24,7 +24,7 @@ public class EathquakeDemo extends PApplet {
 		map = new UnfoldingMap(this, 200, 50, 700, 500, new Google.GoogleMapProvider());
 		map.zoomToLevel(2);
 		MapUtils.createDefaultEventDispatcher(this, map);
-		
+	/*	
 		List<PointFeature> bigEqs = new ArrayList <PointFeature>();
 		bigEqs.add(valEq);
 		bigEqs.add(alaskaEq);
@@ -58,7 +58,7 @@ public class EathquakeDemo extends PApplet {
 		
 		Marker valMk = new SimplePointMarker(valLoc, valEq.getProperties());
 		map.addMarker(valMk);
-		
+		*/
 	}
 	
 	public void draw() {
