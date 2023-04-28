@@ -1,3 +1,5 @@
+// this class is still empty
+
 package module3;
 
 import processing.core.PApplet;
