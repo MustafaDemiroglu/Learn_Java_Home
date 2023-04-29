@@ -2,8 +2,8 @@ package module3;
 
 //Java utilities libraries
 import java.util.ArrayList;
-//import java.util.Collections;
-//import java.util.Comparator;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 //Processing library
@@ -25,7 +25,7 @@ import parsing.ParseFeed;
  * An application with an interactive map displaying earthquake data.
  * Author: UC San Diego Intermediate Software Development MOOC team
  * @author Mustafa Demiroglu
- * Date: 27.04.2023
+ * Date: 29.04.2023
  * */
 public class EarthquakeCityMap extends PApplet {
 
@@ -73,11 +73,28 @@ public class EarthquakeCityMap extends PApplet {
 	    //PointFeatures have a getLocation method
 	    List<PointFeature> earthquakes = ParseFeed.parseEarthquake(this, earthquakesURL);
 	    
+	   
 	    //TODO (Step 3): Add a loop here that calls createMarker (see below) 
 	    // to create a new SimplePointMarker for each PointFeature in 
 	    // earthquakes.  Then add each new SimplePointMarker to the 
 	    // List markers (so that it will be added to the map in the line below)
 	    
+	    // These print statements show you (1) all of relevant properties
+	    // in the features, and (2) how to get one property and use it
+	    if (earthquakes.size()>0) {
+	    	PointFeature f = earthquakes.get(0);
+	    	System.out.println(f.getProperties());
+	    	Object magObj = f.getProperty("magnitude");
+	    	float mag =Float.parseFloat(magObj.toString());
+	    	// PointFeatures also have a getLocation method
+	    }
+	    
+	    // Here is an example of how to use Processing's color method to generate
+	    // an int that represents the color yellow
+	    int yellow = color (255,255,0);
+	    
+	    // TODO: Add code here as appropriate
+	    // create the markers
 	    
 	    // Add the markers to the map so that they are displayed
 	    map.addMarkers(markers);

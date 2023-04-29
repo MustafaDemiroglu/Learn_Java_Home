@@ -64,7 +64,7 @@ public class EathquakeDemo extends PApplet {
 	public void draw() {
 		background (10);
 		map.draw();
-		addKey();
+		// addKey();
 	}
 
 	
