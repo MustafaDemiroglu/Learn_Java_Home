@@ -8,12 +8,14 @@ public class Student extends Person {
 		return id;
 	}
 	
-	public Student(String n) {
-		super(n);
-	}
-	
 	public Student () {
 		this ("Student") ;
+		System.out.println("#2 ");
+	}
+	
+	public Student(String n) {
+		super(n);
+		System.out.println("#3 ");
 	}
 
 }

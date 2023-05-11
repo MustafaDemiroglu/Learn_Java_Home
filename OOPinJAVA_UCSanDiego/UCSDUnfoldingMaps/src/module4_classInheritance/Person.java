@@ -2,7 +2,7 @@
 
 package module4_classInheritance;
 
-public class Person extends Object {
+public class Person {
 	
 	private String name;
 	
@@ -18,8 +18,9 @@ public class Person extends Object {
 		return name;
 	}
 	
-	public Person () {
-		super () ;
+	public Person (String n) {
+		this.name = n ;
+		System.out.println("#1 ");
 	}
 
 }
