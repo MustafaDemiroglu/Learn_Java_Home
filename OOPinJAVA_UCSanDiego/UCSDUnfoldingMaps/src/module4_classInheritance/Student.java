@@ -3,7 +3,9 @@
 package module4_classInheritance;
 
 public class Student extends Person {
-	
-	private String name;
+	private int id;
+	public int getID() {
+		return id;
+	}
 
 }

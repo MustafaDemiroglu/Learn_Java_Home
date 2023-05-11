@@ -4,6 +4,9 @@ package module4_classInheritance;
 
 public class Faculty {
 	
-	private String name;
+	private String id;
+	public String getID() {
+		return id;
+	}
 
 }
