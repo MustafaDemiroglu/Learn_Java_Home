@@ -12,10 +12,13 @@ package module4_classInheritance;
 public class Person {
 	
 	private String name;
-	
-	public Person (String n) {
-		this.name = n ;
-		System.out.println("#1 ");
-	}
+	 
+    public Person( String n ) {
+        super();
+        this.name = n;
+    }
+    public void setName( String n ) {
+        this.name = n;
+    }
 
 }
