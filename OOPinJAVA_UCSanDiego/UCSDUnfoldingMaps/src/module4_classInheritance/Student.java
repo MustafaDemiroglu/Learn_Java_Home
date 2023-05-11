@@ -7,5 +7,9 @@ public class Student extends Person {
 	public int getID() {
 		return id;
 	}
+	
+	public Student() {
+		super();
+	}
 
 }
