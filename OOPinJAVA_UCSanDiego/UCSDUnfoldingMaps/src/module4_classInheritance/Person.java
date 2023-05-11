@@ -2,7 +2,7 @@
 
 package module4_classInheritance;
 
-public class Person {
+public class Person extends Object {
 	
 	private String name;
 	
@@ -16,6 +16,10 @@ public class Person {
 	
 	public String getName() {
 		return name;
+	}
+	
+	public Person () {
+		super () ;
 	}
 
 }
