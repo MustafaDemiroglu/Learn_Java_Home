@@ -27,11 +27,37 @@ public class C01_Scanner {
 
         // Verilerin cikti olarak ekrana gosterilmesi
 
-
+        /* 1. Yol: tüm ciktilar alt alta ekrana yansiyacan sekilde yazmak icin println kullanilir
+        println de ki ln line yani hat satir olarak anlasilmalidir
         System.out.println("Isminiz : " + isim);
         System.out.println("Soyisminiz : " + soyisim);
         System.out.println("Yasiniz : " + yas);
         System.out.println("Kaydiniz basariyla tamamlanmistir");
+
+        System.out.println() deki ln yazdirma islemini yaptiktan sonta alt satira gecmesini
+        saglar. println yerine print yazarsak yazdirdigimiz seyler yanyana yazdirilir
+        */
+
+        /* Asagidaki versiyonda ise println yerine print yazabiliriz. Ancak bu sekilde veriler ekranda
+         yanyana yansir.
+        System.out.print("Isminiz : " + isim);
+        System.out.print(" Soyisminiz : " + soyisim);
+        System.out.print(" Yasiniz : " + yas);
+        System.out.print(" Kaydiniz basariyla tamamlanmistir");
+        */
+
+        /* Asagidaki varyans ta da istenildigi gibi ciktilar ekranda alt altta gorünmeyecektir.
+        System.out.println(" Isminiz : " + isim +
+                            "Soyisminiz : " + soyisim +
+                            "Yasiniz : " + yas +
+                            "Kaydiniz basariyla tamamlanmistir");
+        */
+
+        System.out.println(" Isminiz : " + isim +
+                "Soyisminiz : " + soyisim +
+                "Yasiniz : " + yas +
+                "Kaydiniz basariyla tamamlanmistir");
+
 
         // Kullanici istedigimiz data türünde bilgi girisi yapmazsa
         // kodumuzda hata olusur ve calisma durur
