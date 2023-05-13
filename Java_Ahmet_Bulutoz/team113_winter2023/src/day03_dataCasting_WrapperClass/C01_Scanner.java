@@ -47,16 +47,17 @@ public class C01_Scanner {
         */
 
         /* Asagidaki varyans ta da istenildigi gibi ciktilar ekranda alt altta gorünmeyecektir.
-        System.out.println(" Isminiz : " + isim +
+        System.out.println("Isminiz : " + isim +
                             "Soyisminiz : " + soyisim +
                             "Yasiniz : " + yas +
                             "Kaydiniz basariyla tamamlanmistir");
         */
 
-        System.out.println(" Isminiz : " + isim +
-                "Soyisminiz : " + soyisim +
-                "Yasiniz : " + yas +
-                "Kaydiniz basariyla tamamlanmistir");
+        // System.out.println() de alt satira yazi yazmasini istiyorsan
+        System.out.println("Isminiz : " + isim +
+                "\nSoyisminiz : " + soyisim +
+                "\nYasiniz : " + yas +
+                "\nKaydiniz basariyla tamamlanmistir");
 
 
         // Kullanici istedigimiz data türünde bilgi girisi yapmazsa
