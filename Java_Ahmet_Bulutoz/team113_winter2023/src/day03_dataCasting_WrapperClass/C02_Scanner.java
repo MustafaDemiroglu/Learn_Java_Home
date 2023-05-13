@@ -32,7 +32,7 @@ public class C02_Scanner {
 
         // girilen bilgilerin ekrana cikti olarak verilmesi
 
-        System.out.println("Girilen Bilgiler : " + isimIlkHarf + " "+  soyisim +", " + yas);
+        System.out.println("Girilen Bilgiler : " + isimIlkHarf + " "+  soyisim +", " + Ahmet yas);
 
     }
 }
