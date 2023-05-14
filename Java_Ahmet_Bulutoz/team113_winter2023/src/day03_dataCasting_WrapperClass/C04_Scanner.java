@@ -18,8 +18,14 @@ public class C04_Scanner {
         System.out.println("Sayi2'i tamsayi olarak giriniz");
         int sayi2 = scan.nextInt();
 
-        System.out.println("Sayi 1 : " + sayi2);
-        System.out.println("Sayi 2 : " + sayi1);
+        int temp=0;
+        temp = sayi2;
+        sayi2=sayi1;
+        sayi1=temp;
+        temp=0;
+
+        System.out.println("Sayi 1 : " + sayi1);
+        System.out.println("Sayi 2 : " + sayi2);
 
     }
 }
