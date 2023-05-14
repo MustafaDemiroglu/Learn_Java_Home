@@ -24,8 +24,8 @@ public class C04_Scanner {
         sayi1=temp;
         temp=0;
 
-        System.out.println("Sayi 1 : " + sayi1);
-        System.out.println("Sayi 2 : " + sayi2);
+        System.out.println("Sayi 1 in yeni degeri : " + sayi1);
+        System.out.println("Sayi 2 nin yeni degeri : " + sayi2);
 
     }
 }
