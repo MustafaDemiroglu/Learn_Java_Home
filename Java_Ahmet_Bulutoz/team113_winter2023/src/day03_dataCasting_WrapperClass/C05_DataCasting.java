@@ -4,7 +4,7 @@ public class C05_DataCasting {
 
     public static void main(String[] args) {
         /*
-         *Bazi primitive data türleri baska hiv bir data türünden deger kabul etmez
+         *Bazi primitive data türleri baska hic bir data türünden deger kabul etmez
          */
 
         boolean bl = false ;
