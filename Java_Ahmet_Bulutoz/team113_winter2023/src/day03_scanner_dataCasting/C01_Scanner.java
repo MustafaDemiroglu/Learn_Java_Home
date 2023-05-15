@@ -5,7 +5,7 @@
     Kaydiniz basariyla tamamlanmistir
 */
 
-package day03_dataCasting_WrapperClass;
+package day03_scanner_dataCasting;
 
 import java.util.Scanner;
 

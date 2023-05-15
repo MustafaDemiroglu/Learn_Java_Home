@@ -1,4 +1,4 @@
-package day03_dataCasting_WrapperClass;
+package day03_scanner_dataCasting;
 
 public class C05_DataCasting {
 

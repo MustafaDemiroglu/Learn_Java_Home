@@ -1,6 +1,6 @@
 // Soru -6 Kullanicidan bir cemberin yaricapini alip, cevresini ve alanini yazdirin
 
-package day03_dataCasting_WrapperClass;
+package day03_scanner_dataCasting;
 
 import java.util.Scanner;
 

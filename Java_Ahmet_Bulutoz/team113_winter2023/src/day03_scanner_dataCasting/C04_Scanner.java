@@ -2,7 +2,7 @@
 // Kullanici sayi1=10, sayi2=20 degeri girdiginde
 // sayi1 in degeri =20 , sayi2 nin yeni degeri = 10 olarak görülmeli
 
-package day03_dataCasting_WrapperClass;
+package day03_scanner_dataCasting;
 
 import java.util.Scanner;
 
