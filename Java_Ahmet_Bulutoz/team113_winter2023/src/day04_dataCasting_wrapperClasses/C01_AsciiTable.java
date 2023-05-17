@@ -6,7 +6,9 @@ public class C01_AsciiTable {
 
         /*
          * 24 ==> 11000
-         * a ==>
+         * a ==> 97 ==> 10100010
+         * b ==> 98
+         * ahmet icin ise her bir karakter ayri ayri makine diline cevrilir
          */
     }
 }
