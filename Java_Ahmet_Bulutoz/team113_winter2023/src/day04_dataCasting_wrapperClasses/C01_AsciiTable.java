@@ -19,5 +19,15 @@ public class C01_AsciiTable {
 
         char ilkharf = 101;
         System.out.println(ilkharf);
+
+        // kullanicinin verdigi harften bir sonraki harfi yazdirin
+
+        char girilenchar = 'f' ;
+        System.out.println(girilenchar+1); // 102+1=103
+
+        // bin 103 degil 103 ün karsiligi olan char ifadeyi
+        // yazdirmak istersek explicit casting yapmamiz lazim
+
+        System.out.println("Girilen harften sonra gelen harf : " + (char)(girilenchar+1));
     }
 }
