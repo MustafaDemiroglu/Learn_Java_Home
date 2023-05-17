@@ -29,5 +29,10 @@ public class C01_AsciiTable {
         // yazdirmak istersek explicit casting yapmamiz lazim
 
         System.out.println("Girilen harften sonra gelen harf : " + (char)(girilenchar+1));
+
+        // verilen harften iki öncekini yazdirmak
+        girilenchar = 'M' ;
+        System.out.println(girilenchar-2);  // 77-2 = 75
+        System.out.println("Girilen harften iki önce gelen harf : " + (char)(girilenchar-2)); // K
     }
 }
