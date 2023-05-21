@@ -21,7 +21,14 @@ public class C03_DataCasting {
 
         System.out.println(a/d);   // 20/6 = 3,333333
 
-        
+        // a/b isleinin sonucunu nasil ondalkli olarak yazdiracagiz
+
+        System.out.println((double)(a/b));
+        // islem önceligi parantez icinde (a/b) dedir
+        // Java öncelikle (a/b) islemini yapar ve sonucu 3 bulur
+        // sonra double oldugundan 3 ü double cast eder ve sonuc 3.0 bulr
+
+
 
     }
 }
