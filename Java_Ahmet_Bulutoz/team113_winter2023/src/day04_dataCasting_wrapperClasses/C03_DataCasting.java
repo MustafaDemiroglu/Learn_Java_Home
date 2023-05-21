@@ -29,6 +29,15 @@ public class C03_DataCasting {
         // sonra double oldugundan 3 ü double cast eder ve sonuc 3.0 bulr
 
 
+        // bölme isleminin sonucunun double olmasi icin
+        // isleme girenlerden birisi double olmalidir
+
+
+        System.out.println((double) a/b);    // 3.33333333335
+
+        System.out.println();
+
+
 
     }
 }
