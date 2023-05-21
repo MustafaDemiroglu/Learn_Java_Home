@@ -12,7 +12,7 @@ public class C03_DataCasting {
         // Java bölünen iki sayi tamsayi ise sonucun  tamsayi kismini verir
 
         double c = 6 ;
-        System.out.println(a/c);   // 20/6=3,33333333333333333333333335
+        System.out.println(a/c);   // 20/6=3.3333333333333335
         // int/double ===> double
 
         // bölünen sayilarin data türleri farkli ise sonucu daha genis olan cinsinden verir
@@ -33,9 +33,9 @@ public class C03_DataCasting {
         // isleme girenlerden birisi double olmalidir
 
 
-        System.out.println((double) a/b);    // 3.33333333335
+        System.out.println((double) a/b);    // 3.3333333333333335
 
-        System.out.println();
+        System.out.println(a/(double)b);      //  3.3333333333333335
 
 
 
