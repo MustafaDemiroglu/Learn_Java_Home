@@ -17,8 +17,13 @@ public class C01_IncrementDecrement {
         System.out.println(a);  // 23
         int b = a ;
         System.out.println(b);  //23
+        System.out.println("a : " + a + " b : " + b );
 
-        
+        // a nin degerini b ye atayin sonra a nin degerinin 3 artirin
+        b = a ;
+        a +=3 ;
+
+        System.out.println("a : " + a + " b : " + b );
 
     }
 }
