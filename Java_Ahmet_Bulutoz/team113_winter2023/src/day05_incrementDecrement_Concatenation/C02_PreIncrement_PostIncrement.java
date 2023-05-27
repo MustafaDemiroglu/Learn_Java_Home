@@ -12,7 +12,13 @@ public class C02_PreIncrement_PostIncrement {
         int b=a;
         System.out.println("a: " + a + " b: " + b);
 
-        a+=3;
+        // a nin degerini b ye atayin sonra a nin dgerini 1 arttirin
+
+        a = 20 ;
+        b=a;
+        a++;
+        System.out.println("a: " + a + " b: " + b);
+
 
     }
 }
