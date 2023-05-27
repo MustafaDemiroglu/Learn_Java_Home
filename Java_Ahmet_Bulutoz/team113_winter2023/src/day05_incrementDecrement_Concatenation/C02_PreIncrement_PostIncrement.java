@@ -19,7 +19,8 @@ public class C02_PreIncrement_PostIncrement {
         // a nin degerini b ye atayin sonra a nin dgerini 1 arttirin
 
         a = 20 ;
-        b=a++;  önce atama yapar sonra arttirir
+        b=a++;      // önce atama yapar sonra arttirir
+        System.out.println("a: " + a + " b: " + b);
 
         /*
         b=a;
