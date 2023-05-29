@@ -12,5 +12,11 @@ public class C03_Concatenation {
 
         System.out.println(a+b);        // JavaGüzeldir
         System.out.println(a+" "+b);    // Java Güzeldir
+
+        int c = 10 ;
+        int d = 20 ;
+        System.out.println(a+c+d);  // Java1020
+        // Eger String ile baska data türündeki bir deger toplanirsa Java sonucu String yapar
+
     }
 }
