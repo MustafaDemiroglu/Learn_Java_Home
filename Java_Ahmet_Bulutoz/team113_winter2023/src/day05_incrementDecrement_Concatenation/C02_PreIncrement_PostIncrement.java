@@ -44,9 +44,12 @@ public class C02_PreIncrement_PostIncrement {
         a=20;
         System.out.println("a : " + a++);       // a:20
         System.out.println("Bir sonraki satirda a : " + a);
+        System.out.println("-------------------");
 
         //  // a nin degerini 1 azaltin ve sonra a nin degerini yazdirin
+        a=20;
         System.out.println(--a);
+        System.out.println("Bir sonraki satirda a: " + a);
 
 
 
