@@ -26,7 +26,18 @@ public class C02_PreIncrement_PostIncrement {
         b=a;
         a++;
         System.out.println("a: " + a + " b: " + b);
+
          */
+
+        System.out.println("a: " + a + " b: " + b);
+
+
+        // Bu islemleri istrsek tek satirda da yapabiiriz
+
+        // a nin degreinin yazdirin ve sponra ayi 1 artirin
+
+        a=20 ;
+        System.out.println("a : " + a++);      // a:20
 
 
 
