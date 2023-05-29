@@ -25,11 +25,11 @@ public class C04_StringIntGecisler {
         a = 10 ;
         b = 15 ;
 
-        System.out.println(a==b);
-        System.out.println(a == b-5);
+        System.out.println( a == b );
+        System.out.println( a == b-5 );
         boolean c ;
 
-        System.out.println(c = 15 ==b);
+        System.out.println( c = 15 ==b );
 
 
 
