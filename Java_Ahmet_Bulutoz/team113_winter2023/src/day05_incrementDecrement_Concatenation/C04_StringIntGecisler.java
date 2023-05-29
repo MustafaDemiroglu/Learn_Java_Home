@@ -22,6 +22,15 @@ public class C04_StringIntGecisler {
 
         System.out.println(a+" "+b);    // 20 40
 
+        a = 10 ;
+        b = 15 ;
+
+        System.out.println(a==b);
+        System.out.println(a == b-5);
+        boolean c ;
+
+        System.out.println(c = 15 ==b);
+
 
 
     }
