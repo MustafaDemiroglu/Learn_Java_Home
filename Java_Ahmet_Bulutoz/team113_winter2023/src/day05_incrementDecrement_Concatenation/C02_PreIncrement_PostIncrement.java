@@ -37,7 +37,15 @@ public class C02_PreIncrement_PostIncrement {
         // a nin degreinin yazdirin ve sponra ayi 1 artirin
 
         a=20 ;
-        System.out.println("a : " + a++);      // a:20
+        System.out.println("a : " + a);      // a:20
+        a++;
+        System.out.println("-------------------");
+
+        a=20;
+        System.out.println("a : " + a++);       // a:20
+        System.out.println("Bir sonraki satirda a : " + a); 
+
+
 
 
 
