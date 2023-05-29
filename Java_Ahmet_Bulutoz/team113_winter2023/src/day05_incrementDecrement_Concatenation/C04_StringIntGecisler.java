@@ -12,6 +12,17 @@ public class C04_StringIntGecisler {
 
         System.out.println(sayi);     // 423
 
+        int a  = 20 ;
+        int b = 40 ;
+
+        // bu iki sayiyi kullanarak 2040 yazdirin
+
+        System.out.println(a+""+b);     // 2040
+        System.out.println(""+a+b);     // 2040
+
+        System.out.println(a+" "+b);    // 20 40
+
+
 
     }
 }
