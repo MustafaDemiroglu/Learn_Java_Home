@@ -4,6 +4,17 @@ public class C02_PreIncrement_PostIncrement {
 
     public static void main(String[] args) {
 
+        /*
+         * Eger sayinin degrei SADECE 1 artacak veya azalacaksa
+         * arttirip sonra yazdirma / atama
+         * yazdirip sonra arttirma/atama
+         * islemlerinin tek satirda yapabiliriz
+         *
+
+         */
+
+
+
         // a nin degerini 1 arttirin ve yeni degerini olusturacagniz b variable ina atayin
 
         int a = 20 ;
