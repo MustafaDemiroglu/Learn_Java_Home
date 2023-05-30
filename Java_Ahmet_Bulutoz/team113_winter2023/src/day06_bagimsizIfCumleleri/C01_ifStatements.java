@@ -7,6 +7,13 @@ public class C01_ifStatements {
          * Buradaki sartlar birbirinden bagimsizdir
          * uygun sayilar olursa 3 if body si de calisabilir
          * bazen de hic bir if body si devreye girmeyebilir
+         *
+         * kodumuz konsolda hic bir sey yazdirmasa da
+         *
+         * Process finished with exit code 0
+         * yazisini görünce kodun hic bir sorun cikmadan calistigini anliyoruz
+         *
+         * sadece degerler sartlri saglamadigi icin konsolda bir sey yazdirilmadi
          */
 
 
