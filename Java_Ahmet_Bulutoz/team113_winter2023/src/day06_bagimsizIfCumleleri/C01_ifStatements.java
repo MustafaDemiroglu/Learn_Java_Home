@@ -18,7 +18,7 @@ public class C01_ifStatements {
 
 
         int a = 13 ;
-        int b = 97 ;
+        int b = 55 ;
 
         if (a > b) {
             System.out.println("a b'den büyüktür");
@@ -30,6 +30,18 @@ public class C01_ifStatements {
 
         if (b > 100) {
             System.out.println("b 100'den büyüktür");
+        }
+
+        /*
+         * Bazen if statement ta direk boolean bir diger sart olarak yazilabilir
+         * budurumda boolean variable degeri true ise if  body calisir
+         * false ise if body calismaz
+         */
+
+        boolean sonuc = a*7>b;
+
+        if (sonuc) {
+            System.out.println("istenen sart saglandi");
         }
     }
 }
