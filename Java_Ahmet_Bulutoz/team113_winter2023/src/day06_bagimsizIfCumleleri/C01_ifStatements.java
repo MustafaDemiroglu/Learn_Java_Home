@@ -3,7 +3,11 @@ package day06_bagimsizIfCumleleri;
 public class C01_ifStatements {
 
     public static void main(String[] args) {
-        
+        /*
+         * Buradaki sartlar birbirinden bagimsizdir
+         * uygun sayilar olursa 3 if body si de calisabilir
+         * bazen de hic bir if body si devreye girmeyebilir
+         */
 
 
         int a = 20 ;
