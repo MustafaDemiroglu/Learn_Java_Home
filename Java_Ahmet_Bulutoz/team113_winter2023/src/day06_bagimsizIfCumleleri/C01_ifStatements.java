@@ -17,8 +17,8 @@ public class C01_ifStatements {
          */
 
 
-        int a = 20 ;
-        int b = 30 ;
+        int a = 13 ;
+        int b = 97 ;
 
         if (a > b) {
             System.out.println("a b'den büyüktür");
