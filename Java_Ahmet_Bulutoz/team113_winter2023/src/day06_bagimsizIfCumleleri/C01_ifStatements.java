@@ -41,7 +41,7 @@ public class C01_ifStatements {
         boolean sonuc = a*7>b;
 
         if (sonuc) {
-            System.out.println("Istenen sartlar saglandi");
+            System.out.println("Istenen sart saglandi");
         }
     }
 }
