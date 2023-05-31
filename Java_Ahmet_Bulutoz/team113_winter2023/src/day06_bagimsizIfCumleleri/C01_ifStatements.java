@@ -13,7 +13,7 @@ public class C01_ifStatements {
          * Process finished with exit code 0
          * yazisini görünce kodun hic bir sorun cikmadan calistigini anliyoruz
          *
-         * sadece degerler sartlri saglamadigi icin konsolda bir sey yazdirilmadi
+         * sadece degerler sartlari saglamadigi icin konsolda bir sey yazdirilmadi
          */
 
 
