@@ -12,7 +12,9 @@ public class C04_ifStatements {
          * if statements da sart parantezinden sonra {} kullanmazsak
          * Java ilk ; e kadar olan kismi if boy olarak kabul eder
          *
-         * if body zaten 
+         * if body zaten bir satir ise bu bir sorun olmaz
+         * ama if body 1 satirdan coksa ilk satirdan sonrasi
+         * her durumda calisir
          */
 
         Scanner scan = new Scanner(System.in);
