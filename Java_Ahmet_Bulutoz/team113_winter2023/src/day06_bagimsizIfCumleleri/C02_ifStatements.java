@@ -16,5 +16,14 @@ public class C02_ifStatements {
         if(sayi%5 == 0) {
             System.out.println("sayi 5'in tam kati");
         }
+
+        // Soru 3 - Kullanicidan bir sayi alin
+        // sayiyi kontrol edip 3 ile böl+bebiliyorsa sayi 3 ile bölünür yazdirin
+
+        if(sayi%3 == 0) {
+            System.out.println("sayi 3'ün tam kati");
+        }
+
+
     }
 }
