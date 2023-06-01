@@ -8,6 +8,13 @@ public class C04_ifStatements {
         //          50 veya daha büyükse "Sinifi gectin"
         //          50'den kücükse "Mallesef kaldirin"
 
+        /*
+         * if statements da sart parantezinden sonra {} kullanmazsak
+         * Java ilk ; e kadar olan kismi if boy olarak kabul eder
+         *
+         * if body zaten 
+         */
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Lütfen notunuzu giriniz");
