@@ -7,7 +7,7 @@ public class C06_ifElseStatements {
     public static void main(String[] args) {
 
         // Soru 3 - Kullanicidan yasini isteyin
-        //          65 yas ve üzeri ise " Emekli olabilirsin" yazdir
+        //          65 yas ve üzeri ise "Emekli olabilirsin" yazdir
         //          yoksa emekli olmasi icin calismasi gereken yil sayisini yazdirin
 
         Scanner scan = new Scanner(System.in) ;
