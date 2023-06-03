@@ -10,7 +10,7 @@ public class C07_ifElseStatements {
         //          girilen karakterin büyük harf olup olmadigini yazdirin
 
         Scanner scan = new Scanner(System.in) ;
-        System.out.println(" Lütfen bir karakter giriniz :");
+        System.out.println(" Lütfen herhangi bir karakter giriniz :");
         char krk =  scan.next().charAt(0);
 
         // r ===> A ile Z arasinda mi?
