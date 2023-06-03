@@ -12,7 +12,7 @@ public class C08_ifElseStatements {
 
         Scanner scan = new Scanner(System.in) ;
 
-        System.out.println("Lütfen bir karakter giriniz");
+        System.out.println("Lütfen herhangi bir karakter giriniz");
 
         char krk = scan.next().charAt(0) ;
 
