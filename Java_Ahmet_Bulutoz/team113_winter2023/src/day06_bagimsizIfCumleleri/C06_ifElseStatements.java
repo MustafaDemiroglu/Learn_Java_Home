@@ -19,7 +19,7 @@ public class C06_ifElseStatements {
                     "\nEmekli olabilirsiniz ");
         } else {
 
-            System.out.println("Emekli olmaniz icin daha " + (65-yas) + " yil calismalisin");
+            System.out.println("Emekli olmabilmenniz icin daha " + (65-yas) + " yil calismalisin");
         }
     }
 }
