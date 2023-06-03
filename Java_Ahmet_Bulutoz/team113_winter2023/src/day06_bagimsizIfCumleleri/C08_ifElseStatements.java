@@ -8,7 +8,7 @@ public class C08_ifElseStatements {
 
         // Soru 5- Kullanicidan bir harf isteyin
         //         girilen karakter kücük ise onu büyük harf olarak yazdirin
-        //         yoksa girilen karakteri yazdirin
+        //         yoksa girilen karakteri oldugu gibi yazdirin
 
         Scanner scan = new Scanner(System.in) ;
 
