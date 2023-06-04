@@ -6,8 +6,8 @@ public class C02_ifStatements {
 
     public static void main(String[] args) {
 
-        // Soru 1 - Kullnicidan bir sayi isteyin
-        //          sayiyi kontrol edip 5 ile böl+bebiliyorsa sayi 5 ile bölünür yazdirin
+        // Soru 1 - Kullanicidan herhangi bir tamsayi isteyin
+        //          sayiyi kontrol edip 5 ile bölünebiliyorsa sayi 5 ile bölünür yazdirin
 
         Scanner scan = new Scanner (System.in);
         System.out.println("Lütfen bir tamsayi giriniz");
