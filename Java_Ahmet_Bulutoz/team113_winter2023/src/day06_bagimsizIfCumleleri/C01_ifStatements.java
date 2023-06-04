@@ -25,7 +25,7 @@ public class C01_ifStatements {
         }
 
         if (a%2 == 0) {
-            System.out.println("a cift sayidir");
+            System.out.println("a bir cift sayidir");
         }
 
         if (b > 100) {
