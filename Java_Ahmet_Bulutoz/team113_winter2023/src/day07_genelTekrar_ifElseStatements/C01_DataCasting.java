@@ -13,9 +13,9 @@ public class C01_DataCasting {
      * int sayi1 = "Merhaba";
      */
 
-    // özellikle sayisal data türündeki degerler
+    // özellikle sayisal data türündeki degerler,
     // baska sayisal data türündeki variable atanabilir
 
-        
+
 }
 }
