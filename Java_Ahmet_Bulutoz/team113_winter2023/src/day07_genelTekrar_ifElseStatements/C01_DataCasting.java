@@ -2,6 +2,8 @@ package day07_genelTekrar_ifElseStatements;
 
 public class C01_DataCasting {
 
+    public static void main(String[] args) {
+
     // Java'da bazi Data türleri asla baska data türüne cevrilemez
 
     /*
@@ -13,4 +15,7 @@ public class C01_DataCasting {
 
     // özellikle sayisal data türündeki degerler
     // baska sayisal data türündeki variable atanabilir
+
+        
+}
 }
