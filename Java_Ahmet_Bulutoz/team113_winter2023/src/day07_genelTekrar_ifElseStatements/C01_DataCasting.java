@@ -14,7 +14,7 @@ public class C01_DataCasting {
      */
 
     // özellikle sayisal data türündeki degerler,
-    // baska sayisal data türündeki variable atanabilir
+    // baska sayisal data türündeki variable a atanabilir
 
 
 }
