@@ -4,7 +4,7 @@ public class C01_DataCasting {
 
     public static void main(String[] args) {
 
-    // Java'da bazi Data türleri asla baska data türüne cevrilemez
+    // Java'da bazi Data türleri asla baska data türlerine cevrilemez
 
     /*
      * String str1 = false ;
