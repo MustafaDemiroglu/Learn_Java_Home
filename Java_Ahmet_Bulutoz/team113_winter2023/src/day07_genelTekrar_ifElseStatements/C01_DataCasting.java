@@ -46,5 +46,12 @@ public class C01_DataCasting {
 
         System.out.println((char)('k'+1));
 
+        db1=3987845641455415445654d;
+        int sayi3 = (int)db1;
+        System.out.println("sayi3 : " + sayi3);
+        short sh2 = (short)db1;
+        System.out.println("sh2 : " + sh2);
+
+
 }
 }
