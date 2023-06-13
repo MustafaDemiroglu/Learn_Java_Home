@@ -42,7 +42,7 @@ public class C01_DataCasting {
 
         System.out.println('k'+1);      // 108
         // eger bu islemin char olarak degerini yazdirmak istersek
-        // sayisal degerler char a cast edilebilir
+        // sayisal degerler char a cast edilebilirler
 
         System.out.println((char)('k'+1));
 
