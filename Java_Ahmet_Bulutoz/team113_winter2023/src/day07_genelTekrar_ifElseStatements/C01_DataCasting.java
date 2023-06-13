@@ -52,6 +52,5 @@ public class C01_DataCasting {
         short sh2 = (short)db1;
         System.out.println("sh2 : " + sh2);
 
-
-}
+    }
 }
