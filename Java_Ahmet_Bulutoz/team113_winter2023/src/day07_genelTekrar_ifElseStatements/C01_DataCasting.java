@@ -38,7 +38,7 @@ public class C01_DataCasting {
         }
 
         // char data türündeki degerler sayisal islemlerde kullanilabilirler
-        // bir char matematiksel islemde kullanilirsa ASCII table'daki degeri le isleme girer
+        // bir char matematiksel islemde kullanilirsa ASCII table'daki degeri ile isleme girer
 
         System.out.println('k'+1);      // 108
         // eger bu islemin char olarak degerini yazdirmak istersek
