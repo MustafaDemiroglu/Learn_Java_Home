@@ -13,7 +13,7 @@ public class C01_DataCasting {
      * int sayi1 = "Merhaba";
      */
 
-    // özellikle sayisal data türündeki degerler,
+    // özellikle de sayisal data türündeki degerler,
     // baska sayisal data türündeki variable a atanabilir
 
         double db1 = 23 ;
