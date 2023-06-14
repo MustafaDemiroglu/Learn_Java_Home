@@ -21,7 +21,7 @@ public class C01_DataCasting {
 
         int sayi2= sh1;
 
-        //daha dar data türündeki degeri daha genis data türündeki variable atamaya
+        // daha dar data türündeki degeri daha genis data türündeki variable atamaya
         // autowidening denir ve java bunu otomatik yapar
 
         sh1 = (short)sayi2;
