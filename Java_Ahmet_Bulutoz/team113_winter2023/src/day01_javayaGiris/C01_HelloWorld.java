@@ -12,7 +12,7 @@ public class C01_HelloWorld {
         Bu sekilde
         yapinca
         birden fazla satir
-        yorum satiriolur
+        yorum satiri olur
          */
 
     }
