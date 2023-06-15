@@ -3,9 +3,9 @@ package day01_javayaGiris;
 public class C01_HelloWorld {
 
     public static void main(String[] args) {
-       // sout yazip entera basarsaniz konsolda yazdirma kodu oln SYstem.out.print.in() cikar
+       // sout yazip entera basarsaniz konsolda yazdirma kodu oln System.out.print.ln() cikar
        // java aciklama satirlarini görmezden gelir
-       //intellij de bu aciklama yazilarini gri renkli yapar
+       // IntelliJ de bu aciklama yazilarini gri renkli yapar
         System.out.println("Hello World");
 
         /*
