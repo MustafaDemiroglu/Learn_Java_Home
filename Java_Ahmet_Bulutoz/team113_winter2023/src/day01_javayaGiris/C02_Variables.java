@@ -4,7 +4,7 @@ public class C02_Variables {
     public static void main(String[] args) {
         /*
             java runtime bir programdir
-            yani biz yesil oka basip calistirdihgimizda hersey sifirdan baslar
+            yani biz yesil oka basip calistirdigimizda hersey sifirdan baslar
             class in sonuna kadar tüm kodalr yukaridan asagi calistirilir
             class bittiginde hersey sifirdan baslar
          */
