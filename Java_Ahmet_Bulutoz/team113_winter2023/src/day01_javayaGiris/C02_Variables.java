@@ -5,7 +5,7 @@ public class C02_Variables {
         /*
             java runtime bir programdir
             yani biz yesil oka basip calistirdigimizda hersey sifirdan baslar
-            class in sonuna kadar tüm kodlar yukaridan asagi calistirilir
+            class in sonuna kadar tüm kodlar yukaridan asagiya calistirilir
             class bittiginde hersey sifirdan baslar
          */
 
