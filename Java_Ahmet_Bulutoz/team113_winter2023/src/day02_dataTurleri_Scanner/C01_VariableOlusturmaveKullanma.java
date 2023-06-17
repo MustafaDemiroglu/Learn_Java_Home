@@ -17,7 +17,7 @@ public class C01_VariableOlusturmaveKullanma {
         sayi=50;
         sayi=sayi*2+20;
         System.out.println(sayi);
-        System.out.println("sayi = " + sayi);
+        System.out.println("sayi : " + sayi);
 
     }
 }
