@@ -17,9 +17,9 @@ public class C03_NonPrimitiveDataTurleri {
 
         System.out.println(isim);
 
-        String metin ="lorem aasdjhkjfdkjd" +
-                "sajhdjhksdas" +
-                "sjkhdkjdsfhkjfhgkjfhgfkjhkjfsd" +
+        String metin ="lorem aasdjghkjfdkjd" +
+                "sajhdjhkhsdas" +
+                "sjkhdkjdsffhkjfhgkjfhgfkjhkjfsd" +
                 "dfkjhdsfjhdsgfjhdsafgjhdhfkff" +
                 "dkjhfgkjfjglkdsjhffgdjsagf" +
                 "jhgdfkjfgjölkfg" +
