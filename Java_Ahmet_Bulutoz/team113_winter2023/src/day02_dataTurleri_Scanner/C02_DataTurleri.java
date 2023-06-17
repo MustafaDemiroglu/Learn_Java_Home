@@ -19,7 +19,7 @@ public class C02_DataTurleri {
 
         double sayi1;
 
-        sayi1 = 3.1564444444444444444444444445686476132;
+        sayi1 = 3.1564444444444445344444444444445686476132;
         System.out.println(sayi1);
 
         double sayi2;
