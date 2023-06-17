@@ -21,9 +21,9 @@ public class C03_NonPrimitiveDataTurleri {
                 "sajhdjhkhsdas" +
                 "sjkhdkjdsffhkjfhgkjfhgfkjhkjfsd" +
                 "dfkjhdsfjhdsgfjhdsafgjhdhfkff" +
-                "dkjhfgkjfjglkdsjhffgdjsagf" +
+                "dkjhfgkjgfjglkdsjhffgdjsagf" +
                 "jhgdfkjfgjölkfg" +
-                "iuzrtiuxcbvmncx" +
+                "iuzrtiuxhcbvmncx" +
                 "kjdshvkisdhf" +
                 "uihiuhiuiuohhhh";
 
