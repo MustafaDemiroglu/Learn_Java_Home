@@ -13,7 +13,7 @@ public class C05_ScannerIlkGorev {
         double girilenSayi= scan.nextDouble();
 
         System.out.println("girmis oldugunuz sayi : " + girilenSayi);
-        System.out.println("Girilen sayinin karesi : " + girilenSayi*girilenSayi);
+        System.out.println("Girdiginiz sayinin karesi : " + girilenSayi*girilenSayi);
 
 
     }
