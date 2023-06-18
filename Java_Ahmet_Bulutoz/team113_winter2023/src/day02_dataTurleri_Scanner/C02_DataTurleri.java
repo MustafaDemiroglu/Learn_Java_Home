@@ -5,7 +5,7 @@ public class C02_DataTurleri {
     public static void main(String[] args) {
 
         char ilkHarf;
-        // Tek tirnak icerisine tek karakter ekleyerek yazabiliriz sadece
+        //  char variable Tek tirnak icerisine tek karakter ekleyerek yazabiliriz sadece
         byte ogrYasi1;
         short ogrYasi2;
         int ogrYasi3;
