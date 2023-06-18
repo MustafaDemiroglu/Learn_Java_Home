@@ -24,8 +24,8 @@ public class C03_NonPrimitiveDataTurleri {
                 "dkjhfgkjgfjglkdsjhffgdjsagf" +
                 "jhgdfkjfgjölkfg" +
                 "iuzrtiuxhcbvmncx" +
-                "kjdshvkisdhf" +
-                "uihiuhiuiuohhhh";
+                "kjdshfvkisdhf" +
+                "uihiuhifuiuohhhh";
 
         System.out.println(metin);
 
