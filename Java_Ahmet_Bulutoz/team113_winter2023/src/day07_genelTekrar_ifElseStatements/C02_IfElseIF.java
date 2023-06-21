@@ -7,7 +7,7 @@ public class C02_IfElseIF {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner (System.in);
-        System.out.println("Dönemsonun Notunuzu Giriniz : ");
+        System.out.println("Dönem sonu Notunuzu Giriniz : ");
         double not = scan.nextDouble();
 
         if (not>100 || not<0) {
