@@ -11,7 +11,7 @@ public class C02_IfElseIF {
         double not = scan.nextDouble();
 
         if (not>100 || not<0) {
-            System.out.println("Notunuzu Yanblis girdiniz. Lütfen tekrar Giriniz : ");
+            System.out.println("Notunuzu Yanlis girdiniz. Lütfen tekrar Giriniz : ");
         } else if (not>=85) {
             System.out.println("Tebrikler AA ile gectiniz");
         } else if (not>=65) {
