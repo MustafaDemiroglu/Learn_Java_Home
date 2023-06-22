@@ -19,7 +19,7 @@ public class C03_IfElseIf {
 
 
         if (sayi %3 == 0 && sayi %5 == 0 ) {
-            System.out.println("3 ün ve 5 in kati kati");
+            System.out.println("hem 3 ün hem de 5 in kati");
         } else if (sayi %3 == 0) {
             System.out.println("3 ün kati");
         } else if (sayi %5 == 0 ) {
