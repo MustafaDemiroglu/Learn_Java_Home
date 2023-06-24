@@ -7,6 +7,7 @@ public class C02_NestedIfElse {
 
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen bir sayi giriniz : ");
         int sayi = scan.nextInt();
     }
 }
