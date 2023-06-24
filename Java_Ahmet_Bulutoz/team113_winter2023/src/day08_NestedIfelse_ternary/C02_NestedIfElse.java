@@ -7,6 +7,6 @@ public class C02_NestedIfElse {
 
 
         Scanner scan = new Scanner(System.in);
-        
+        int sayi = scan.nextInt();
     }
 }
