@@ -28,7 +28,7 @@ public class C03_NestedIfElse {
             if (cinsiyet == 'k' || cinsiyet=='K') {
                 System.out.println("Emekli olmak icin " + (60-yas) + " yil daha calismalisin");
             } else if (cinsiyet == 'e' || cinsiyet=='E') {
-                System.out.println("Emekli olmak icin " + (65-yas) + " yil daha calismalisin");
+                System.out.println("Emekli olabilmak icin " + (65-yas) + " yil daha calismalisin");
             } else {
                 System.out.println("Gecersiz cinsiyet girisi");
             }
