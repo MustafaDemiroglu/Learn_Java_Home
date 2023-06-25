@@ -6,10 +6,10 @@ public class C03_NestedIfElse {
 
     public static void main(String[] args) {
         /*
-         * Kullanicidan cinsiyetini ve asini alin
-         * Kadin 60 yas ve üzewri erkek 65 yas ve üzeri mrkli olabilirler
+         * Kullanicidan cinsiyetini ve yasini alin
+         * Kadin 60 yas ve üzeri erkek 65 yas ve üzeri emekli olabilirler
          * cinsiyet ve yasini dikkate alarak emekli olabilirisn
-         * veya emekli olabilmek icin su kadar yil daha caliman gerek yazdirin
+         * veya emekli olabilmek icin su kadar yil daha calisman gerek yazdirin
          * hatali giris yapilirsa kullaniciyi uyarin
          */
 
