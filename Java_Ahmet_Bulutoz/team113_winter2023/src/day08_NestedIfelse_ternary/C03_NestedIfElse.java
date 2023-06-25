@@ -19,7 +19,7 @@ public class C03_NestedIfElse {
         System.out.println("Lütfen yasinizi giriniz");
         double yas = scan.nextDouble();
 
-        System.out.println("lütfen cinsiyetini erkek ise E Kadin ise K olarak giriniz ");
+        System.out.println("Lütfen cinsiyetini erkek ise E Kadin ise K olarak giriniz ");
         char cinsiyet = scan.next().charAt(0);
 
         if (yas <16 || yas>80) {
