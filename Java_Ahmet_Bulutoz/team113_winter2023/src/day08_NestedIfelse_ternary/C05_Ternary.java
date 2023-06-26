@@ -14,7 +14,7 @@ public class C05_Ternary {
         System.out.println("Lütfen bir tam sayi giriniz : ");
         int sayi = scan.nextInt();
 
-        
+        System.out.println("------- if else -------");
 
         if (sayi >= 0) {
             System.out.println(sayi);
@@ -22,6 +22,9 @@ public class C05_Ternary {
             sayi=sayi*(-1);
             System.out.println(sayi);
         }
+
+        System.out.println("--------- ternary --------------");
+        System.out.println(sayi>=0? sayi:sayi*(-1));
 
     }
 }
