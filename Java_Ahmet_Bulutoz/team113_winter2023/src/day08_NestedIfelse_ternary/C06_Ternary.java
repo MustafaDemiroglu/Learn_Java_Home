@@ -15,7 +15,7 @@ public class C06_Ternary {
         String sonuc = sayi%2==0 ? "sayi cift" : "sayi tek";
 
         // eger true oldugundaki sonuc ile false oldugundaki sonuc
-        // farkli data türlerinde olursa
+        // farkli data türlerinde olursa yazdirilabilir ama atama yapilamaz
 
         // sayi cift ise "sayi cift" yazdirin
         // degilse sayinin 2 katini yazdirin
