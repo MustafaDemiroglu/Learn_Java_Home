@@ -23,6 +23,8 @@ public class C05_Ternary {
             System.out.println(sayi);
         }
 
+        
+
         System.out.println("--------- ternary --------------");
         System.out.println(sayi>=0? sayi:sayi*(-1));
 
