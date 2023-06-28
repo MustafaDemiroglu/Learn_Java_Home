@@ -24,7 +24,7 @@ public class C02_NestedIfElse {
         System.out.println("Lütfen yasinizi giriniz : ");
         double yas = scan.nextDouble();
 
-        System.out.println("lütfen cinsiytinizi giriniz....."
+        System.out.println("Lütfen cinsiyetinizi giriniz....."
                             + "\nKadin icin : K , erkek icin : E giriniz ");
         char cinsiyet = scan.next().charAt(0);
 
