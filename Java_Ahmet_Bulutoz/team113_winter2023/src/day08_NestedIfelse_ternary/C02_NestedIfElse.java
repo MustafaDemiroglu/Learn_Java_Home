@@ -25,7 +25,7 @@ public class C02_NestedIfElse {
         double yas = scan.nextDouble();
 
         System.out.println("Lütfen cinsiyetinizi giriniz....."
-                            + "\nKadin icin : K , erkek icin : E giriniz ");
+                            + "\nKadin icin : K , Erkek icin : E giriniz ");
         char cinsiyet = scan.next().charAt(0);
 
         if (cinsiyet == 'k'|| cinsiyet =='K') {
