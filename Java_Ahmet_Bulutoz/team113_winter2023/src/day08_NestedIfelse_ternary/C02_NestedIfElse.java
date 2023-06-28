@@ -30,7 +30,7 @@ public class C02_NestedIfElse {
 
         if (cinsiyet == 'k'|| cinsiyet =='K') {
             if (yas <16 || yas>80) {
-                System.out.println("Gecersiz yas girisi, lütfen tekrar dendeyin");
+                System.out.println("Gecersiz yas girisi, lütfen tekrar deneyin");
             } else if (yas<60) {
                 System.out.println("Emekli olmak icin daha " + (60-yas) + " yil calismalisin");
             } else {
