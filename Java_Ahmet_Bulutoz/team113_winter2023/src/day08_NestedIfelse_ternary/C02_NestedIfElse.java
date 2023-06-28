@@ -17,7 +17,7 @@ public class C02_NestedIfElse {
         // önce degiskenlerden birine göre ana yapiyi olusturalim
         // bu soruda cinsiyeti ana degisken yapalim
 
-        // iinci degiskenin her bölümünde ayrui ayri degerlendirelim
+        // ikinci degiskenin her bölümünde ayri ayri degerlendirelim
 
         Scanner scan = new Scanner(System.in);
 
