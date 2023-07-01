@@ -10,8 +10,10 @@ public class C10_NestedTernary {
         // uygun olani yazdirin
 
 
-        int sayi = 20 ;
+        int sayi = 250 ;
 
-        System.out.println(sayi>0 ? : );
+        System.out.println(sayi>0 ?
+                sayi%2==0 ? "Cift sayi": "Tek sayi":
+                sayi>-1000 && sayi <-99 ? "Uc Basamakli" :   "Uc Basamakli Degil" );
     }
 }
