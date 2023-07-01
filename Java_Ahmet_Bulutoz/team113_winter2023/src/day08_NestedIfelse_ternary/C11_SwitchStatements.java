@@ -15,6 +15,8 @@ public class C11_SwitchStatements {
         char harf = scan.next().charAt(0);
         scan.close();
 
+        harf = Character.toUpperCase(harf);
+
         if (harf == 'P') {
             System.out.println("Pazar, Persembe veya Pazartesi olabilir");
         } else if (harf =='S') {
@@ -24,6 +26,13 @@ public class C11_SwitchStatements {
         } else {
             System.out.println("Hatali giris yaptiniz lütfen tekrar deneyiniz");
         }
+
+        System.out.println("----------------- Switch -----------------------");
+
+        // daha düzenli ve kullnisli olarak swicth statement kulanabiliriz
+        // switch statement switch in onunde yazilan deguiskene esit olan case calistirir
+        // calismaya basladiktan sonra
+        // break görünceye kadar veya switch in sonuna kadar calisir
 
         switch (harf) {
             case 'P':
