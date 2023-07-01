@@ -6,7 +6,7 @@ public class C09_Ternary {
 
     public static void main(String[] args) {
 
-        // Kullanicidan iki sayi isteyin
+        // Kullanicidan iki sayi tam sayi isteyin
         // büyük olan sayiyi ekrana yazdirin
 
         Scanner scan = new Scanner(System.in);
