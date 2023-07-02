@@ -42,8 +42,16 @@ public class C01_Switch {
                 System.out.println("Eylül");
                 break;
             case 10 :
-                System.out.println("Subat");
+                System.out.println("Ekim");
                 break;
+            case 11 :
+                System.out.println("Kasim");
+                break;
+            case 12 :
+                System.out.println("Aralik");
+                break;
+            default:
+                System.out.println("Ay numarasi yanlis girildi");
         }
 
     }
