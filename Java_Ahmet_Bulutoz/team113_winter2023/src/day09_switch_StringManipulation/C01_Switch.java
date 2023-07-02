@@ -1,0 +1,50 @@
+package day09_switch_StringManipulation;
+
+import java.util.Scanner;
+
+public class C01_Switch {
+
+    public static void main(String[] args) {
+
+        // Soru 3 - Kullanicidan ay numarasini alip ay ismini yazdirin
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen yazdirmak istediginiz ay numarasini giriniz ");
+        int ayNo = scan.nextInt();
+        scan.close();
+
+        switch (ayNo) {
+            case 1 :
+                System.out.println("Ocak");
+                break;
+            case 2 :
+                System.out.println("Subat");
+                break;
+            case 3 :
+                System.out.println("Mart");
+                break;
+            case 4 :
+                System.out.println("Nisan");
+                break;
+            case 5 :
+                System.out.println("Mayis");
+                break;
+            case 6 :
+                System.out.println("Haziran");
+                break;
+            case 7 :
+                System.out.println("Temmuz");
+                break;
+            case 8 :
+                System.out.println("Agustos");
+                break;
+            case 9 :
+                System.out.println("Eylül");
+                break;
+            case 10 :
+                System.out.println("Subat");
+                break;
+        }
+
+    }
+}
