@@ -6,10 +6,8 @@ public class C01_IncrementDecrement {
 
         int a = 20 ;
 
-        // a degeroni 3 artttirin ve yeni degerini olusturacagniz b variablina atayin
-
+        // a degerini 3 arttirin ve yeni degerini olusturacagniz b variablina atayin
         // a = a+3;
-
         // a = +3;
         // System.out.println(a); // 3
 
@@ -20,7 +18,7 @@ public class C01_IncrementDecrement {
         System.out.println("a : " + a + " b : " + b );  // a:23, b:20
         System.out.println(" ");
 
-        // a nin degerini b ye atayin sonra a nin degerinin 3 artirin
+        // a nin degerini b ye atayin sonra a nin degerini 3 artirin
         b = a ;
         a +=3 ;
 
