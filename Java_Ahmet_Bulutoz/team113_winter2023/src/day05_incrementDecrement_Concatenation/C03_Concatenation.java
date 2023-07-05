@@ -16,7 +16,7 @@ public class C03_Concatenation {
         int c = 10 ;
         int d = 20 ;
         System.out.println(a+c+d);  // Java1020
-        // Eger String ile baska data türündeki bir deger toplanirsa Java sonucu String yapar
+        // Eger String ile baska data türündeki bir deger toplanirsa Java o sonucu String yapar
         System.out.println(c+d+a);      // 30Java
 
         // Peki Java30 yazmak istersek
