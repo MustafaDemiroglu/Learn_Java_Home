@@ -6,7 +6,7 @@ public class C04_StringIntGecisler {
 
         String s1 = "423" ;
 
-        // s1 integer cevirmek istersek
+        // s1 i integer a cevirmek istersek
 
         int sayi = Integer.parseInt(s1) ;
 
