@@ -9,7 +9,7 @@ public class C01_Switch {
         // Soru 3 - Kullanicidan ay numarasini alip ay ismini yazdirin
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lütfen yazdirmak istediginiz ay numarasini giriniz ");
+        System.out.println("Lütfen yazdirmak istediginiz ay numarasini tamsayi olarak  giriniz ");
         int ayNo = scan.nextInt();
         scan.close();
 
