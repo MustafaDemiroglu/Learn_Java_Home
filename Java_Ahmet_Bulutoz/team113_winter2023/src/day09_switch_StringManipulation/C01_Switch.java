@@ -51,7 +51,7 @@ public class C01_Switch {
                 System.out.println("Aralik");
                 break;
             default:
-                System.out.println("Ay numarasi yanlis girildi");
+                System.out.println("Ay numarasi yanlis girildi, Lütfen tekrar deneyiniz");
         }
 
     }
