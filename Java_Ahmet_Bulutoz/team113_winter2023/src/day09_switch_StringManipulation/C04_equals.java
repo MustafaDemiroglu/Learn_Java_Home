@@ -34,7 +34,7 @@ public class C04_equals {
          * == ile Stringleri karsilastirdigimizda bekledigimizden farkli sonuclar olabilir
          * bu yüzden iki String i karsilastiracaksak == degil equals kullaniriz
          *
-         * 
+         *
          */
 
     }
