@@ -27,7 +27,15 @@ public class C04_equals {
         System.out.println(str1 == str5);     // Java = Java true
         System.out.println(str1 == str8);       // Java == Java ama false
 
-        
+        /*
+         * == ile Stringleri karsilastirirsak hem metin deggerine hem de referanslarina bakar
+         * equals ile String leri karsilastirirsak sadece metin degerlerine bakar
+         *
+         * == ile Stringleri karsilastirdigimizda bekledigimizden farkli sonuclar olabilir
+         * bu yüzden iki String i karsilastiracaksak == degil equals kullaniriz
+         *
+         * 
+         */
 
     }
 }
