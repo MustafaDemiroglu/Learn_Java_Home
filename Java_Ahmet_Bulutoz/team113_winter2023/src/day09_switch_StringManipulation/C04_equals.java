@@ -16,5 +16,18 @@ public class C04_equals {
 
         System.out.println(str1.equalsIgnoreCase(str2));    // true
         System.out.println(str3.equalsIgnoreCase(str4));    // true
+
+
+        String str5 = "Java";
+        String str6 = "Ja";
+        String str7 = "va";
+        String str8 = str6.concat(str7);
+        System.out.println(str8);       // Java
+
+        System.out.println(str1 == str5);     // Java = Java true
+        System.out.println(str1 == str8);       // Java == Java ama false
+
+        
+
     }
 }
