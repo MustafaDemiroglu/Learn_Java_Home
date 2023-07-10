@@ -16,5 +16,11 @@ public class C01_substring {
 
         System.out.println(str.substring(str.length()));        // hiclik
 
+        System.out.println(str.substring(str.charAt(str.length())));        // error
+        // StringIndexOutOfBoundsException:
+        // Index 19 out of bounds for length 19
+        // str in uzunlugu 19 son harfin index i 18
+        // 19. index te karakter yok
+
     }
 }
