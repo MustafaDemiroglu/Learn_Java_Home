@@ -9,5 +9,8 @@ public class C01_substring {
         System.out.println(str.substring(8));       // kadar güzel
 
         System.out.println(str.substring(0));       // Java ne kadar güzel
+
+        System.out.println(str.substring(str.length()-3));      // zel
+
     }
 }
