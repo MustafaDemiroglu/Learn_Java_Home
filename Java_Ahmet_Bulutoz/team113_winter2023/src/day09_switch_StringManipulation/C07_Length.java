@@ -13,7 +13,7 @@ public class C07_Length {
         // Bu cümledeki son karakteri yazdirin
         System.out.println(str.charAt(str.length()-1));     // r
 
-        // sondan 3. karakteri yazdirin
+        // Sondan 3. karakteri yazdirin
         System.out.println(str.charAt(str.length()-3));     // y
 
     }
