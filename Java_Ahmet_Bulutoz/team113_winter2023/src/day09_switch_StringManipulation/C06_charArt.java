@@ -24,7 +24,7 @@ public class C06_charArt {
          * Java da iki türlü hata ile karsilasabiliriz
          * 1 - syntax olarak hatali yazilan kodlari Java compile ederken anlar ve altini kirmizi cizer
          * str =23 ; String bir variable int deger atanamayacagini bilir ve altini kirmizi cizer
-         * Compile tiime error (CTE) diyoruz
+         * Compile time error (CTE) diyoruz
          *
          * 2 - Bazen de syntax de hata ol,maz
          * Java sorunu calismaya basladiktan sonra farkeder
