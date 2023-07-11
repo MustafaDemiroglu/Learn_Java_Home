@@ -21,7 +21,7 @@ public class C03_toLowerCase_toUpperCase {
         System.out.println(str);        // JAVA CANDIR
         System.out.println(str.toLowerCase());      // java candir
 
-        // str türkce karakterleri gözönünde bulundurarark kücük harfe cevirin
+        // str türkce karakterleri gözönünde bulundurarak kücük harfe cevirin
 
         str = str.toLowerCase(Locale.forLanguageTag("TR"));
         System.out.println(str);    // java candir
