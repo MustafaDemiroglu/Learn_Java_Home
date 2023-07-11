@@ -26,7 +26,7 @@ public class C06_charArt {
          * str =23 ; String bir variable int deger atanamayacagini bilir ve altini kirmizi cizer
          * Compile time error (CTE) diyoruz
          *
-         * 2 - Bazen de syntax de hata ol,maz
+         * 2 - Bazen de syntax de hata olmaz
          * Java sorunu calismaya basladiktan sonra farkeder
          * str.charArt(15): burada verilen str dan bir karakter isteniyor
          * compile time da str in uzunlugunu Java anlamaz
