@@ -28,7 +28,7 @@ public class C01_substring {
 
 
         // 2 - iki parametre girilirse baslangic index in den (dahil) baslar
-        // bitis indexine (haric) kadar olan bölümü yazdirir.
+        // bitis index ine (haric) kadar olan bölümü yazdirir.
 
         System.out.println(str.substring(5,7));         // ne
 
