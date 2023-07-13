@@ -11,5 +11,10 @@ public class C02_contains {
         String s = "ka";
 
         System.out.println(str.contains(s));        // true
+        System.out.println(str.contains("a"));      // true
+        System.out.println(str.contains(" "));      // true
+        System.out.println(str.contains(""));       // true
+        System.out.println(str.contains("java"));   // false
+        
     }
 }
