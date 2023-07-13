@@ -15,6 +15,6 @@ public class C02_contains {
         System.out.println(str.contains(" "));      // true
         System.out.println(str.contains(""));       // true
         System.out.println(str.contains("java"));   // false
-        
+
     }
 }
