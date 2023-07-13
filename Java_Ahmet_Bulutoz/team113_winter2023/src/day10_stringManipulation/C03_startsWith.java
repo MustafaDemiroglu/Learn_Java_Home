@@ -9,5 +9,6 @@ public class C03_startsWith {
         System.out.println(str.startsWith("java"));     // false
         System.out.println(str.startsWith("Ja"));       // true
         System.out.println(str.startsWith(str));        // true
+        System.out.println(str.startsWith(""));         // true
     }
 }
