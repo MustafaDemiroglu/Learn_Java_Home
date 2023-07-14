@@ -6,11 +6,10 @@ public class C04_endsWith {
 
     public static void main(String[] args) {
 
-        /* SORU : Kullnicidan bir mail alin
+        /*  SORU : Kullnicidan bir mail alin
          *  - mail @ icermiyorsa "gecersiz email
          *  - mail @gmail icermiyorsa "gecersiz mail"
-         *
-         *
+         *  - mail @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
         */
 
         Scanner scan = new Scanner(System.in);
