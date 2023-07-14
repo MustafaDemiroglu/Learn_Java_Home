@@ -1,8 +1,8 @@
-package day10_stringManipulation.C04;
+package day10_stringManipulation;
 
 import java.util.Scanner;
 
-public class endsWith {
+public class C04_endsWith {
 
     public static void main(String[] args) {
 
