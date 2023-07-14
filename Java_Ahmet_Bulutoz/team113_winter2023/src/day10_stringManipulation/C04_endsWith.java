@@ -7,8 +7,8 @@ public class C04_endsWith {
     public static void main(String[] args) {
 
         /* SORU : Kullnicidan bir mail alin
-         * mail @ icermiyorsa "gecersiz email
-         *
+         *  - mail @ icermiyorsa "gecersiz email
+         *  - mail @gmail icermiyorsa "gecersiz mail"
          *
          *
         */
