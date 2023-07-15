@@ -8,7 +8,7 @@ public class C04_endsWith {
 
         /* SORU : Kullanicidan bir mail alin
          * - mail @ icermiyorsa "gecersiz email"
-         *  - mail @gmail icermiyorsa "gecersiz mail"
+         * - mail @gmail icermiyorsa "gecersiz mail"
          *  - mail @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
         */
 
