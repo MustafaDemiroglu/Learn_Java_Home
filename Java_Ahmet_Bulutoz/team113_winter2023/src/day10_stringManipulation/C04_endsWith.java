@@ -7,9 +7,15 @@ public class C04_endsWith {
     public static void main(String[] args) {
 
         /* SORU : Kullanicidan bir mail alin
+<<<<<<< Updated upstream
          * - mail @ icermiyorsa "gecersiz email"
          * - mail @gmail icermiyorsa "gecersiz mail"
          * - mail @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
+=======
+         *  - mail @ icermiyorsa "gecersiz email"
+         *  - mail @gmail icermiyorsa "gecersiz mail"
+         *  - mail @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
+>>>>>>> Stashed changes
         */
 
         Scanner scan = new Scanner(System.in);
