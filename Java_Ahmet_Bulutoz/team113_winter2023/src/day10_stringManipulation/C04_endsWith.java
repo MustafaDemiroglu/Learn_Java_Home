@@ -20,7 +20,7 @@ public class C04_endsWith {
         if (!email.contains("@"))  {
             System.out.println("gecersiz email");
         } else if (!email.contains("@gmail.com")) {
-            System.out.println("mail gmail olmali");
+            System.out.println("Mail gmail olmali");
         } else if (!email.endsWith("gmail.com")) {
             System.out.println("Mailde yazim hatasi var");
         } else {
