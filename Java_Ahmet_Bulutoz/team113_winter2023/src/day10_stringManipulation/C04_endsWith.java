@@ -7,9 +7,9 @@ public class C04_endsWith {
     public static void main(String[] args) {
 
         /* SORU: Kullanicidan bir e-mail adresi alin
-         * - mail adresi @ icermiyorsa "gecersiz e-mail adresi girdiniz"
-         * - mail adresi @gmail icermiyorsa "gecersiz mail"
-         * - mail @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
+         * - girilen mail adresi @ icermiyorsa "gecersiz e-mail adresi girdiniz"
+         * - girilen mail adresi @gmail icermiyorsa "gecersiz e-mail adresi girdiniz "
+         * - girilen mail adresi @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
         */
 
         Scanner scan = new Scanner(System.in);
