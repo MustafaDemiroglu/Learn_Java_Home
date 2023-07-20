@@ -7,7 +7,7 @@ public class C04_endsWith {
     public static void main(String[] args) {
 
         /* SORU: Kullanicidan bir e-mail adresi alin
-         * - girilen mail adresi @ icermiyorsa "gecersiz e-mail adresi girdiniz"
+         * - girilen mail adresi @ icermiyorsa "gecersiz bir e-mail adresi girdiniz"
          * - girilen mail adresi @gmail icermiyorsa "gecersiz e-mail adresi girdiniz "
          * - girilen mail adresi @gmail.com ile bitmiyorsa "mailde yazim hatasi var" yazdirin.
         */
