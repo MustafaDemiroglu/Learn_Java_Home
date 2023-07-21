@@ -18,9 +18,9 @@ public class C04_endsWith {
         scan.close();
 
         if (!email.contains("@"))  {
-            System.out.println("gecersiz email adresi girdiniz");
+            System.out.println("Gecersiz Email adresi girdiniz");
         } else if (!email.contains("@gmail.com")) {
-            System.out.println("Girdiginiz Mail adresi gmail olmali");
+            System.out.println("Girdiginiz Mail adresi Gmail olmali");
         } else if (!email.endsWith("gmail.com")) {
             System.out.println("Mailde yazim hatasi var");
         } else {
