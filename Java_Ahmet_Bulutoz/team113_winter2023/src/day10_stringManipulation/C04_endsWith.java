@@ -18,7 +18,7 @@ public class C04_endsWith {
         scan.close();
 
         if (!email.contains("@"))  {
-            System.out.println("gecersiz email aresi");
+            System.out.println("gecersiz email adresi");
         } else if (!email.contains("@gmail.com")) {
             System.out.println("Mail adresi gmail olmali");
         } else if (!email.endsWith("gmail.com")) {
