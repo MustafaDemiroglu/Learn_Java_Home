@@ -22,7 +22,7 @@ public class C04_endsWith {
         } else if (!email.contains("@gmail.com")) {
             System.out.println("Girdiginiz Mail adresi Gmail bir adres olmali");
         } else if (!email.endsWith("gmail.com")) {
-            System.out.println("Mailde yazim hatasi yapmis olmalisiniz, bu ades gecerli degil");
+            System.out.println("Mailde yazim hatasi yapmis olmalisiniz, bu adres gecerli degil");
         } else {
             System.out.println("Mail adresi dogru");
         }
