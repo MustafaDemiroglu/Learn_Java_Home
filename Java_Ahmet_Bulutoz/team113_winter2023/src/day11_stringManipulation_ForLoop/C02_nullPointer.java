@@ -34,7 +34,10 @@ public class C02_nullPointer {
 
         String str2 = str + "Java" ;
 
-        System.out.println(str2);
+        System.out.println("str2 : " + str2);
+
+        // int sayi = null ;  primitive variable'lara  null degeri olmaz
+        Integer sayi = null;
 
     }
 }
