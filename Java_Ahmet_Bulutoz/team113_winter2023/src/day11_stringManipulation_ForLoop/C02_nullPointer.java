@@ -39,5 +39,20 @@ public class C02_nullPointer {
         // int sayi = null ;  primitive variable'lara  null degeri olmaz
         Integer sayi = null;
 
+        // biz genelde String bir ifade olusturup, sonra deger atayacaksak
+        // hiclik degeri atariz
+
+
+        System.out.println("-------------");
+        String str3 = ""; // str3 e deger atanmistir
+                            // atanan deger hicliktir
+
+        System.out.println(str3);
+        System.out.println(str3.isEmpty());
+        System.out.println(str2.isEmpty());
+        // System.out.println(str.isEmpty());  // Run time Error    --- NullPointerException
+
+        System.out.println(str3.length());
+
     }
 }
