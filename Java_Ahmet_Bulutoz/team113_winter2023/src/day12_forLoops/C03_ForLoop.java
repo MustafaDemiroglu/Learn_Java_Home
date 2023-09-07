@@ -15,10 +15,10 @@ public class C03_ForLoop {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Baslangic dgeri pozitif tamsayi : ");
+        System.out.println("Baslangic dgeri tamsayi : ");
         bas = scan.nextInt();
 
-        System.out.println("Bitis degeri pozitif tamsayi : ");
+        System.out.println("Bitis degeri tamsayi : ");
         bit = scan.nextInt();
 
         scan.close();
@@ -29,6 +29,8 @@ public class C03_ForLoop {
             top = top+i;
         }
         System.out.println("Sayilarin toplami : " + top);
+
+        System.out.println("Sonucta görünüyork i benim formülüm giris degeri daha büyük oldugunda calismiyor. yanlis deger veriyor");
 
         System.out.println("----------------Hocanin cözümü----------");
         int sayilarToplami = 0;
