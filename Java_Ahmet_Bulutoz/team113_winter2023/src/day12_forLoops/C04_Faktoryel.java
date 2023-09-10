@@ -20,6 +20,14 @@ public class C04_Faktoryel {
         }
         System.out.println("Grirdiginiz sayi : " + sayi +  " \nve faktöriyel degeri : " + fak );
 
+        System.out.println("------------ Hocanin Cözümü -----------------------");
+
+        int faktoriyel=1;
+        for (int i = sayi; i >=1 ; i--) {
+            faktoriyel*=i;
+            System.out.println(sayi+"! = " + faktoriyel);
+        }
+        System.out.println(sayi + "! = " + faktoriyel);
 
     }
 
