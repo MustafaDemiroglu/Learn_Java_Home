@@ -7,6 +7,9 @@ public class C02_MethodOlusturma {
         // Kullanicidan iki sayi alip
         // toplamlarini yazdiran bir method olusturun
 
+        ikiSayiyiTopla();
+        ikiSayiyiTopla();
+
     }
 
     public static void ikiSayiyiTopla(){
