@@ -2,7 +2,7 @@ package day13_MethodOlusturma;
 
 import java.util.Scanner;
 
-public class C02_MethodOlusturma {
+public class C02_IkiSayiyiToplamaMethodu {
     public static void main(String[] args) {
         // Kullanicidan iki sayi alip
         // toplamlarini yazdiran bir method olusturun
