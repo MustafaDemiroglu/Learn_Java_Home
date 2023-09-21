@@ -17,10 +17,12 @@ public class C04_MethodOverloading {
          *    methodlardaki parametrelerin %100 uyumlu olmalarini kontrol eder
          * 3- argument ile parametre ayni olmasa bile
          *    verilen argumentleri kabul edecek parametre var mi?
+         * 4- Casting ile birden fazla method u kullabiliyorsa
+         *    daha az casting ile calisacak method u kullanir
          */
 
-        topla(3,5); //8
-        topla(3.4,2.3); // 5.7
+        topla(3,5);           //8
+        topla(3.4,2.3);       // 5.7
 
         // topla("ali","veli");     // CTE bu argumentleri kabul edebilecek parametre yok
 
