@@ -5,13 +5,35 @@ public class C04_MethodOverloading {
 
         /*
          * Java Overloading Kurallari:
-         * 1-isim ve parametreleri ayni olan birden fazla method olusturulamaz
+         * 1- isim ve parametreleri ayni olan birden fazla method olusturulamaz
          * 2- Data türleri farkli olan parametrelerinin yerlerinin degistirirsek
          *    java yeni bir method olarak kabul eder(int, double yerine double,int a izin verir)
+         *
+         * Overloading olan Class larda
+         * Java hangi method un calistirilacagina si sekilde karar verir
+         *
+         * 1- cagrilan isimde method var mi?
+         * 2- method call´da kullanilan arguments yani parantez icine yazilanlar ile
+         *    methodlardaki parametrelerin %100 uyumlu olmalarini kontrol eder
+         * 3- argument ile parametre ayni olmasa bile
+         *    verilen argumentleri kabul edecek parametre var mi?
          */
 
         topla(3,5); //8
         topla(3.4,2.3); // 5.7
+
+        // topla("ali","veli");     // CTE bu argumentleri kabul edebilecek parametre yok
+
+        topla('a','b');       // iki int 195
+                                    // char parametreli bir method olmamasina ragmen ,
+                                    // ASCII tablosundaki char degerlerine karsilik gelen (casting)
+                                    // int degerler ile islem yapilir
+
+        topla(3f,4f);         // 7.0
+                                    // float degerlerini double kabul ederek islem yapar (casting)
+
+        topla(3f,4);                // 7.0
+                                    // float degerini double kabul ederek islem yapar (casting)
 
     }
 
