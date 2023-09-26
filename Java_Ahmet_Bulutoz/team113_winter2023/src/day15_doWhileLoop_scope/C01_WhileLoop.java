@@ -22,6 +22,8 @@ public class C01_WhileLoop {
         }
 
         System.out.println("girdiginiz sayi: "+ girilenSayi+ " 'nin rakamlar toplami: " + rakamlarToplami );
+        System.out.println("Method ile bulunan cözüm");
+        System.out.println("girdiginiz sayi: "+ girilenSayi+ " 'nin rakamlar toplami: " + C02_RakamlarToplaminiBul.rakamlarTopaminiBul(girilenSayi));
     }
 
 }
