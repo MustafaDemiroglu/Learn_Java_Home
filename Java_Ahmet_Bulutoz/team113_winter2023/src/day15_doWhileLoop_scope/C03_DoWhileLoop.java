@@ -8,13 +8,24 @@ public class C03_DoWhileLoop {
          * bu da bazen hatalara sebep olur
          */
 
-        int sayi= 3;
+        int sayi= 10;
         int toplam= 0;
 
         while(sayi>0) {
             toplam += sayi*sayi ;
             sayi--;
         }
+        System.out.println("while toplam " + toplam);
+
+        sayi = 10;
+        toplam = 0;
+        do {
+            toplam +=sayi*sayi;
+            sayi--;
+        } while (sayi>0);
+        System.out.println("dowhile toplam " + toplam);
+
+
 
     }
 }
