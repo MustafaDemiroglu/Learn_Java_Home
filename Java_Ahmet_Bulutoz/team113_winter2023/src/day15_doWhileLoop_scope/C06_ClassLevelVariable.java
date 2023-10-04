@@ -10,6 +10,8 @@ public class C06_ClassLevelVariable {
      *  2- Class Level da olusturulan variable lara deger atanmasa bile
      *     Java onlar icin tanimlanmis DEFAULT DEGERLER atar
      *  3- Class Level da olusturulan variable lar static veya instance (static olmayan) olabilir
+     *  4- static olarak tanimlanan variable lar tüm method lara direk olarak kullanilabilir
+     *  5- method static ise icerisine static olmayan variable almaz
      */
 
     static int sayi = 10;
@@ -26,17 +28,21 @@ public class C06_ClassLevelVariable {
         System.out.println("boolean : " + bl);  // false
         System.out.println("char : " + chr);    // '' hiclik
         System.out.println("int : " + in1);     // sayisal türler icin 0
+        staticMethod();
+        // staticOlmayanMethod();
     }
 
     public static void staticMethod() {
         sayi++;
         // in2++;
+        // System.out.println(bl2);
     }
 
     public void staticOlmayanMethod() {
         sayi--;
         System.out.println(sayi);
         in2--;
+
     }
 
 
