@@ -7,4 +7,5 @@ public class ADoktor {
     int dogumYili;
     boolean askerlikYaptiMi;
     String telNo;
+    static String fakulte = "Cukurova Tip";
 }

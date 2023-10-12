@@ -16,6 +16,27 @@ public class C01_Hastane {
         dok2.soyisim = "Celik";
         System.out.println(dok2.soyisim);   // celik
 
-        System.out.println(dok1);
+        System.out.println(dok1);       // referansini yazdirir
+
+        System.out.println(dok1.fakulte);   // Tip
+        System.out.println(dok2.fakulte);   // Tip
+
+        dok1.isim = "Burcu";
+        System.out.println(dok2.isim);      // hala null cünkü hala bir atama yapmadik
+
+        dok1.fakulte = "Cerrahpasa Tip Fakultesi";
+        System.out.println(dok2.fakulte);   // Cerrahpasa Tip Fakultesi , cunku variable fakulte static
+
+        ADoktor dok3 = new ADoktor();
+        System.out.println(dok3.dogumYili);     // instance variable deger atanmadigi icin default edger yani 0
+        System.out.println(dok3.fakulte);   // atama yapmadik ancak variable  statik oldugundan
+                                            // en son atanan deger yani Cerrajhpasa Tip Fakültesi
+        System.out.println(ADoktor.fakulte);
+        // static variable lar icin tavsiye edilen erisim yöntemi
+        // classIsmi.staticUyeIsmi seklinde yazilir.
+        // Bu kullanim bicimine sttic yöntem denir
+
+
+
     }
 }
