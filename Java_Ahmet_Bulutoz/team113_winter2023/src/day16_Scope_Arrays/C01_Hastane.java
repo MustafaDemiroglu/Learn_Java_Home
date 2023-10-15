@@ -8,11 +8,11 @@ public class C01_Hastane {
         dok1.dogumYili= 1983;
 
         System.out.println(dok1.askerlikYaptiMi);       // java default degeri false
-        // System.out.println(isim);    // hata verir
+        // System.out.println(isim);    // Hata verir
         System.out.println(dok1.isim + " " + dok1.soyisim + ", " + dok1.dogumYili);
 
         ADoktor dok2= new ADoktor();
-        System.out.println(dok2.isim);  // henüz atama yapilmadigi icin null verir
+        System.out.println(dok2.isim);  // Henüz atama yapilmadigi icin null verir
         dok2.soyisim = "Celik";
         System.out.println(dok2.soyisim);   // celik
 
