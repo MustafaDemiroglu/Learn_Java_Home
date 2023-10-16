@@ -1,5 +1,7 @@
 package day16_Scope_Arrays;
 
+import java.util.Arrays;
+
 public class C02_Arrays {
     public static void main(String[] args) {
         String[] isimler = {"Nuerfsan", "Berke" , "Mustafa"};
@@ -7,5 +9,27 @@ public class C02_Arrays {
         char karakterler[] = {'e', '4', ','};
 
         // Array non-primitive data türlerindendir
+        // Eger array i liste seklinde olusturmayip
+        // new keyword kullaniyorsak uzunlugunu yazmak zorundayiz
+
+        String[] arr = new String[5];
+
+        // Bir array tanimlanan uzunluktan daha fazla veya az eleman alamaz
+        System.out.println(isimler);
+        // array laer dorek yazdirilamaz
+
+        Arrays.toString(isimler);
+        System.out.println(Arrays.toString(sayilar));
+
+        System.out.println(Arrays.toString(arr)); // null,.....
+
+        int[] a = new int[7];
+
+        System.out.println(Arrays.toString(a)); // 0,0,0,0,0,0,0
+
+        // array deki elemanlara nasil ulasiriz
+        // index ile
+
+
     }
 }
