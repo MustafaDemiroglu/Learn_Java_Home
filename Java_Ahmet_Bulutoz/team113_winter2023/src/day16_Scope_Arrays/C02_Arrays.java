@@ -37,6 +37,15 @@ public class C02_Arrays {
 
         System.out.println(Arrays.toString(a));
 
+        // sayilar array inin 4. indexindeki elementi yazdirin
+        System.out.println(sayilar[4]);     // 7
+
+        // isimler array inin 1. indexindeki ismi yazdirin
+        System.out.println(isimler[1]);
+
+
+
+
 
 
 
