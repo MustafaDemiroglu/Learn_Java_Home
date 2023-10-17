@@ -30,6 +30,15 @@ public class C02_Arrays {
         // array deki elemanlara nasil ulasiriz
         // index ile
 
+        a[0] = 4;
+        a[3] = 7;
+        // a[7] = 8;    // ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 7
+
+
+        System.out.println(Arrays.toString(a));
+
+
+
 
     }
 }
