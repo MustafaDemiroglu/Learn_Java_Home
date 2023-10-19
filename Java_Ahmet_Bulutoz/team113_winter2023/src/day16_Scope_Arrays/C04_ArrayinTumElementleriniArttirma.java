@@ -12,7 +12,7 @@ public class C04_ArrayinTumElementleriniArttirma {
         for (int i = 0; i < fiyatlar.length ; i++) {
             fiyatlar[i] += 3 ;
         }
-        
+
         System.out.println(Arrays.toString(fiyatlar));
     }
 }
