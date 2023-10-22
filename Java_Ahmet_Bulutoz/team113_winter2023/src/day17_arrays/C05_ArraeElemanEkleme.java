@@ -1,5 +1,7 @@
 package day17_arrays;
 
+import day16_Scope_Arrays.C03_ArrayElementleriniYazdirma;
+
 import java.util.Arrays;
 
 public class C05_ArraeElemanEkleme {
@@ -30,6 +32,16 @@ public class C05_ArraeElemanEkleme {
         // eskiArr = yeniArr; diyerek yeni array in degerini eskisine atiyoruz
 
         int [] yeniArr = new int [arr.length+1];    // [0,0,0,0]
+
+        for (int i = 0; i < arr.length ; i++) {
+            yeniArr[i] =arr[i];
+        } // yeniArr[] = 4,5,6,0
+
+        yeniArr[yeniArr.length-1] = eklenecekElement; //
+        arr = yeniArr ;
+
+        System.out.println("Ekleme yapildiktan sontraki array");
+        System.out.println(Arrays.toString(arr));
 
     }
 }
