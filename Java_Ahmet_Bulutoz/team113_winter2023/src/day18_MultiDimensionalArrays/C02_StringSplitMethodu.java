@@ -20,15 +20,15 @@ public class C02_StringSplitMethodu {
         int enUzunKelimeLength = kelimeler[0].length();
         String enUzunKelime = kelimeler[0];
 
-        for (int i = 0; i <kelimeler.length ; i++) {
-            if (kelimeler[i].length() > enUzunKelimeLength) {
-                enUzunKelimeLength =kelimeler[i].length();
-                enUzunKelime = kelimeler[i];
+        for (String s : kelimeler) {
+            if (s.length() > enUzunKelimeLength) {
+                enUzunKelimeLength = s.length();
+                enUzunKelime = s;
             }
         }
         System.out.println("Cümledeki En uzun kelime : " + enUzunKelime);
         System.out.println("Cümledeki en uzun kelimenin karakter sayisi : " + enUzunKelimeLength);
-        
+
         // Bir String i karakterlerine ayirmak istersek
         System.out.println("------------------------");
         System.out.println("Bir String i karakterlerine ayirmak istersek ! ");
