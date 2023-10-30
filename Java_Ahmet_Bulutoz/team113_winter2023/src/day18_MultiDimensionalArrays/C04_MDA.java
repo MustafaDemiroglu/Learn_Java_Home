@@ -12,6 +12,16 @@ public class C04_MDA {
 
         // ilk sinifin mevcudunu yazdirin
         System.out.println("ilk sinifin mevcudu : "+siniflar[0].length);
+
+        // siniflarda toplam kac kisi oldugunu yazdirin
+        System.out.println("okuldaki sinif sayisi : " + siniflar.length);
+
+        int toplamOgrenciSayisi = 0 ;
+        for (int i=0; i< siniflar.length; i++) {
+            toplamOgrenciSayisi += siniflar[i].length;
+        }
+        System.out.println("Okuldaki tüm ögrencilerin sayisi : " + toplamOgrenciSayisi);
+
     }
 
 }
