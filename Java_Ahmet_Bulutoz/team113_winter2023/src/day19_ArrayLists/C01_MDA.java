@@ -1,4 +1,4 @@
-package day19_MDA;
+package day19_ArrayLists;
 
 import java.util.Arrays;
 
