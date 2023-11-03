@@ -21,12 +21,16 @@ public class C02_equals {
 
         System.out.println(sayilar1.equals(sayilar2));  // false
         sayilar2.remove(4);
+        System.out.println("sayilar1 : " + sayilar1);
+        System.out.println("sayilar2 : " + sayilar2);
         System.out.println(sayilar1.equals(sayilar2));  // false
 
         // equals hem elementleri hemde index leri kontrol eder
 
         Collections.sort(sayilar1);
         Collections.sort(sayilar2);
+        System.out.println("sayilar1 : " + sayilar1);
+        System.out.println("sayilar2 : " + sayilar2);
 
         System.out.println(sayilar1.equals(sayilar2));  // true
 
