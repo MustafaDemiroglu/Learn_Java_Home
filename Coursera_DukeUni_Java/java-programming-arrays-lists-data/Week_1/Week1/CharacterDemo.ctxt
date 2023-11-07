@@ -3,4 +3,6 @@ comment0.target=CharacterDemo
 comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ CharacterDemo.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
 comment1.params=
 comment1.target=void\ digitTest()
-numComments=2
+comment2.params=
+comment2.target=void\ conversionTest()
+numComments=3
