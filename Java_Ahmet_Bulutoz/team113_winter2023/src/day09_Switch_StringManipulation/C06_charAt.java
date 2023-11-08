@@ -1,6 +1,6 @@
 package day09_Switch_StringManipulation;
 
-public class C06_charArt {
+public class C06_charAt {
 
     public static void main(String[] args) {
 
