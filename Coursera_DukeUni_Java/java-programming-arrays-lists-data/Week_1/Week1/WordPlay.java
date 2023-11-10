@@ -21,7 +21,7 @@ public class WordPlay {
         return isCharVowel;
     }
     
-    public void test(){
+    public void testVowel(){
         System.out.println("is c Vogel ? : " + isVowel('c'));
         System.out.println("is a Vogel ? : " + isVowel('a'));
         System.out.println("is E Vogel ? : " + isVowel('E'));
@@ -34,6 +34,47 @@ public class WordPlay {
         System.out.println("is o Vogel ? : " + isVowel('o'));
         System.out.println("is E Vogel ? : " + isVowel('E'));
         System.out.println("is I Vogel ? : " + isVowel('I'));
+    }
+    
+    public String replaceVowels(String phrase, char ch){
+        String vowels = "AEIOUaeiou";
+        boolean isCharVowel = true;
+        String newphrase = "";
+            for(int i=0; i<phrase.length();i++){
+                char currChar = phrase.charAt(i);
+                if(isVowel(currChar)){
+                    newphrase = newphrase + ch;
+                }else{
+                    newphrase = newphrase + phrase.charAt(i);
+                }
+            }
+        return newphrase;
+    }
+    
+    public void testReplaceVowels(){
+        System.out.println(replaceVowels("Hello World", '*'));
+    }
+    
+    public String emphasize(String phrase, char ch){
+        String newphrase = "";
+        for(int i=0; i<phrase.length();i++){
+                char currChar = phrase.charAt(i);
+                if(currChar != ch){
+                    newphrase = newphrase + currChar;
+                }else{
+                    if(i %2 !=0){
+                    newphrase = newphrase + '+';
+                    } else {
+                        newphrase = newphrase + '*';
+                    }
+                }
+        }
+        return newphrase;
+    }
+    
+    public void testemphasize(){
+        System.out.println(emphasize("dna ctgaaactga", 'a'));
+        System.out.println(emphasize("Mary Bella Abracadabra", 'a'));
     }
         
 
