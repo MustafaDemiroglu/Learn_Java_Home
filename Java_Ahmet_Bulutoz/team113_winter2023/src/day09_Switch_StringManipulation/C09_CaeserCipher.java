@@ -1,18 +1,10 @@
+package day09_Switch_StringManipulation;
 
-/**
- * Beschreiben Sie hier die Klasse CaesarCipher.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
- */
+import static java.lang.Character.*;
 
-import edu.duke.*;
-import static java.lang.Character.isLowerCase;
-import static java.lang.Character.toUpperCase;
-import static java.lang.Character.toLowerCase;
+public class C09_CaeserCipher {
 
-public class CaesarCipher {
-    public String encrypt(String input, int key){
+    public static String encrypt(String input, int key){
         //Make a Stringbuilder with mesage(encrypted)
         StringBuilder encrypted = new StringBuilder(input);
         //Write down the alphabet
@@ -52,7 +44,7 @@ public class CaesarCipher {
         // Your answer it the String inside of encrypted
         return encrypted.toString();
     }
-    
+
     public static  String encryptTwoKeys(String input, int key1, int key2){
         //Make a Stringbuilder with mesage(encrypted)
         StringBuilder encrypted = new StringBuilder(input);
@@ -124,22 +116,9 @@ public class CaesarCipher {
         // Your answer it the String inside of encrypted
         return encrypted.toString();
     }
-    
-    public void testCaesar(){
-        int key = 12;
-        FileResource fr = new FileResource();
-        String message = fr.asString();
-        String encrypted = encrypt(message, key);
-        System.out.println("key is " + key + "\n" + encrypted);
-        String decrypted = encrypt(encrypted,26-key);
-        System.out.println(decrypted);
+    public static void main(String[] args) {
+        System.out.println(encrypt("First Legion", 17));
+        System.out.println(encryptTwoKeys("First Legion", 23, 17));
     }
-    
-    public void testEncrypt(){
-        System.out.println(encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 15));
-    }
-    
-    public void testEncryptTwoKeys(){
-        System.out.println(encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!",8, 21));
-    }
+
 }
