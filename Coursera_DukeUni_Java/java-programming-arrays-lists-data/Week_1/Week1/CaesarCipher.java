@@ -125,6 +125,18 @@ public class CaesarCipher {
         return encrypted.toString();
     }
     
+    public void eyeballDecrypt(String encrypted){
+        CaesarCipher cipher = new CaesarCipher();
+        for(int k=0; k<26;k++){
+            String s = cipher.encrypt(encrypted,k);
+            System.out.println(k+"\t"+s);
+        }
+    }
+    
+    public void testEyeballDecrypt(){
+        eyeballDecrypt("Lujyfwapvu huk zljbypaf");
+    }
+    
     public void testCaesar(){
         int key = 12;
         FileResource fr = new FileResource();
