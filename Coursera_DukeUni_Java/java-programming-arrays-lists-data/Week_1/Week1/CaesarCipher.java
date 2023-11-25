@@ -135,6 +135,7 @@ public class CaesarCipher {
     
     public void testEyeballDecrypt(){
         eyeballDecrypt("Lujyfwapvu huk zljbypaf");
+        eyeballDecrypt("Gwpv c vbuq pvokki yfve iqqu qc bgbgbgbgbgbgbgbgbu");
     }
     
     public void testCaesar(){
