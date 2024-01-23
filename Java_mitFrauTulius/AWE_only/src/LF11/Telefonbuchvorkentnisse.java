@@ -3,7 +3,7 @@ package LF11;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-public class Telefonbuch {
+public class Telefonbuchvorkentnisse {
 
 	public static void main(String[] args) {
 		
