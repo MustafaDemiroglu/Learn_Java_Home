@@ -6,7 +6,6 @@ import java.util.Map.Entry;
 public class Telefonbuch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		HashMap<String, String> telefonbuch = new HashMap<>();
 		
@@ -31,6 +30,7 @@ public class Telefonbuch {
 		System.out.println(telefonbuch.containsValue("Beispiel, Gisela"));
 		
 		// Alle Einträge durchlaufen
+		// For each (einzeleintrag, wasZuDurchlaufenIst
 		for(Entry<String, String> eintrag: telefonbuch.entrySet()) {
 			System.out.println("Name: " + eintrag.getValue() + ", Telefonnummer: " + eintrag.getKey());
 		}
