@@ -6,4 +6,5 @@
  *
  */
 module AWE_only {
+	requires java.desktop;
 }
