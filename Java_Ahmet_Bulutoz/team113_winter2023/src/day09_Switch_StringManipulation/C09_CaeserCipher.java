@@ -5,7 +5,7 @@ import static java.lang.Character.*;
 public class C09_CaeserCipher {
 
     public static String encrypt(String input, int key){
-        //Make a Stringbuilder with message(encrypted)
+        //Make a Stringbuilder with messgiage(encrypted)
         StringBuilder encrypted = new StringBuilder(input);
         //Write down the alphabet
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
